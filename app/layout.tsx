@@ -1,15 +1,22 @@
 import type { Metadata } from "next";
-import {  Montserrat, Geist } from "next/font/google";
+import { Montserrat, Quicksand, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const quick = Quicksand({
+  variable: "--font-quick",
+  subsets: ["latin"],
+});
 
+const cormorant = Cormorant_Garamond({
+  variable: "--font-cormorant",
+  subsets: ['latin']
+})
 const mont = Montserrat({
   variable: "--font-mont",
   subsets: ["latin"],
-  weight: '500'
-})
+  weight: "500",
+});
 
 export const metadata: Metadata = {
   title: "SFCSSL ",
@@ -24,7 +31,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", mont.variable, "font-sans", geist.variable)}
+      className={cn("h-full", "antialiased", mont.variable, quick.variable, cormorant.variable)} 
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
