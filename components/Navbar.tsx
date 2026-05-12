@@ -41,7 +41,7 @@ export default function Navbar() {
   const removeNav = () => setOpen(false);
 
   return (
-    <nav className="fixed z-10 w-full flex p-4 bg-white lg:px-8 lg:py-10 lg:items-center lg:justify-between">
+    <nav className="fixed z-50 w-full flex p-4 bg-white lg:px-8 lg:py-5 lg:items-center lg:justify-between">
       {/* Logo */}
       <div>
         <Link href="/">
