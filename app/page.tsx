@@ -12,8 +12,10 @@ import {
   BrickWallShield,
   Locate,
 } from "lucide-react";
-import { Label } from "radix-ui";
-
+import Service from "@/components/Service";
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 interface Feature {
   label: string;
   icon: React.ElementType;
@@ -125,14 +127,14 @@ export default function Home() {
               style={{ animation: "fadeUp 0.9s 0.3s ease both" }}
             >
               <Button
-                className="bg-sub px-9 py-4 font-medium tracking-[0.5px] border-2 border-sub text-[0.85rem] text-main gover:bg-main hover:border-main transistion"
+                className="bg-sub px-9 py-4 font-medium tracking-[0.5px] border-2 border-sub  font-mont text-[0.85rem] text-main gover:bg-main hover:border-main transistion"
                 size="lg"
               >
                 Explore Our Services
               </Button>
 
               <Button
-                className="bg-transparent text-light h-2 px-9 py-4 rounded-sm font-medium text-[0.85rem] border-2 border-light/25 hover:border-light hover:text-light transition"
+                className="bg-transparent text-light h-2 px-9 py-4 rounded-sm font-medium font-mont text-[0.85rem] border-2 border-light/25 hover:border-light hover:text-light transition"
                 size="lg"
               >
                 Get a Free Consultation
@@ -165,7 +167,7 @@ export default function Home() {
 
         <div className="h-[3px] bg-[linear-gradient(90deg,#081529,#c8973a,#e2b660,#c8973a,#081529)]" />
 
-        <div className="bg-[#0d1f3c] px-[6%] py-6 flex justify-center items-center flex-wrap">
+        <div className="bg-main px-[6%] py-6 flex justify-center items-center flex-wrap">
           {service.map((service, idx) => {
             const Icon = service.icon;
 
@@ -182,6 +184,50 @@ export default function Home() {
             );
           })}
         </div>
+
+
+        {/* Services COMPONENT */}
+        <Service />
+{/*  
+        # views.py
+        from django.http import JsonResponse
+        from django.views import View
+        class CheckoutView(View):
+           def get(self, request):
+               products_param = request.GET.get('products', '')
+               coupon = request.GET.get('coupon', None)
+               # Parse products
+               product_quantities = {}
+               if products_param:
+                   for entry in products_param.split(','):
+                       try:
+                           product_id, quantity = entry.split(':')
+                           product_quantities[product_id] = int(quantity)
+                       except ValueError:
+                           continue  # Skip malformed entries
+               # Build response
+               response_data = {
+                   'products': product_quantities,
+                   'coupon': coupon if coupon else 'No coupon applied'
+               }
+
+               return JsonResponse(response_data)
+
+        # urls.py
+        from django.urls import path
+        from .views import CheckoutView
+        urlpatterns = [
+           path('checkout/', CheckoutView.as_view(), name='checkout'),
+        ]
+        */}
+        {/* About Component */}
+        <About />
+
+        {/* Contact */}
+        <Contact />
+
+        {/* Footer */}
+        <Footer />
       </div>
     </>
   );
