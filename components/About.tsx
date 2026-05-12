@@ -1,4 +1,64 @@
+import { ReactElement } from "react";
+import { Avatar, AvatarImage } from "./ui/avatar";
+import Hero from "@/public/hero.png";
+import { HandHeart, Shield, Star, Heart } from "lucide-react";
+interface Deal {
+  title: string;
+  subtitle: string;
+}
+
+interface Passion {
+  icon: React.ElementType;
+  title: string;
+  description: string;
+}
 export default function About() {
+  const deal: Deal[] = [
+    {
+      title: "4+",
+      subtitle: "Professional Services",
+    },
+    {
+      title: "GM",
+      subtitle: "Greater MAnchester",
+    },
+    {
+      title: "100%",
+      subtitle: "DBS CHecked Staff",
+    },
+    {
+      title: "24/7",
+      subtitle: "Healthcare On-Call",
+    },
+  ];
+
+  const passion: Passion[] = [
+    {
+      icon: HandHeart,
+      title: "Community First",
+      description:
+        "We are rooted in Greater Manchester and proud to serve the people who make this city thrive.",
+    },
+    {
+      icon: Shield,
+      title: "Trust & Safety",
+      description:
+        "Every team member is vetted, DBS checked, and insured before entering any home or workplace.",
+    },
+    {
+      icon: Star,
+      title: "Consistent Excellence",
+      description:
+        "We hold ourselves to a high standard on every job — no matter how big or small.",
+    },
+    {
+      icon: Heart,
+      title: "Genuine Care",
+      description:
+        "Behind every service is a real human connection — we care about the people we work with and for.",
+    },
+  ];
+
   return (
     <>
       <section className="relative px-[6%] py-28  overflow-hidden bg-[#081529]">
@@ -18,7 +78,10 @@ export default function About() {
               </div>
 
               <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#c8973a] to-[#e2b660] flex items-center justify-center text-3xl mb-6 border-4 border-[#c8973a]/30">
-                👩🏾
+                {/* 👩🏾 */}
+                <Avatar>
+                  <AvatarImage src="/public/hero.png" alt="" />
+                </Avatar>
               </div>
 
               <p className="font-cormorant font-mont text-[1.25rem] italic text-[#fdf8f0] leading-[1.7] mb-6">
@@ -36,7 +99,25 @@ export default function About() {
                 Ltd
               </div>
             </div>
+
+            <div className="grid sm:grid-cols-2 gap-4 mt-8">
+              {deal.map((deal, i) => (
+                <div
+                  key={i}
+                  className="bg-sub/10 border text-center border-sub rounded-lg p-5  transition"
+                >
+                  <h3 className="text-sub font-semibold font-mont text-xl  tracking-[0.5px] uppercase mb-1">
+                    {deal.title}
+                  </h3>
+                  <p className="text-[0.8rem] font-mont text-sub/60 leading-relaxed">
+                    {" "}
+                    {deal.subtitle}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
+
           <div className="reveal reveal-delay-2">
             <div className="text-[0.68rem] font-mont font-semibold tracking-[4px] uppercase text-[#e2b660] flex items-center gap-3 mb-3">
               <span className="w-[30px] h-[2px] bg-[#e2b660]" />
@@ -65,15 +146,23 @@ export default function About() {
               because in this work, who you are matters just as much as what you
               can do.
             </p>
-          </div>
 
-          <div className="grid sm:grid-cols-2 gap-4 mt-8">
-            <div className="bg-[#c8973a]/10 border border-[#c8973a]/15 rounded-lg p-5 hover:bg-[#c8973a]/20 hover:border-[#c8973a]/30 transition">
-              <div className="text-2xl mb-2"></div>
-              <div className="text-[#e2b660] font-semibold text-[0.72rem] tracking-[0.5px] uppercase mb-1"></div>
-              <p className="text-[0.8rem] font-mont text-[#fdf8f0]/60 leading-[1.6]">
-                (Add your full description here)
-              </p>
+            <div className="grid sm:grid-cols-2 gap-4 mt-8">
+              {passion.map((pass, i) => {
+                const Icon = pass.icon;
+                return (
+                  <div className="bg-[#c8973a]/10 border border-[#c8973a]/15 rounded-lg p-5 hover:bg-[#c8973a]/20 hover:border-[#c8973a]/30 transition">
+                    <Icon className="text-xl mb-2 text-sub" />
+
+                    <h2 className="text-[#e2b660] ca font-mont font-semibold text-[0.72rem]   tracking-[0.5px] uppercase mb-1">
+                      {pass.title}
+                    </h2>
+                    <p className="text-[0.8rem] font-mont text-[#fdf8f0]/60 leading-[1.6]">
+                      {pass.description}
+                    </p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
