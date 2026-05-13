@@ -151,7 +151,7 @@ export default function About() {
               {passion.map((pass, i) => {
                 const Icon = pass.icon;
                 return (
-                  <div className="bg-[#c8973a]/10 border border-[#c8973a]/15 rounded-lg p-5 hover:bg-[#c8973a]/20 hover:border-[#c8973a]/30 transition">
+                  <div key={i} className="bg-[#c8973a]/10 border border-[#c8973a]/15 rounded-lg p-5 hover:bg-[#c8973a]/20 hover:border-[#c8973a]/30 transition">
                     <Icon className="text-xl mb-2 text-sub" />
 
                     <h2 className="text-[#e2b660] ca font-mont font-semibold text-[0.72rem]   tracking-[0.5px] uppercase mb-1">
