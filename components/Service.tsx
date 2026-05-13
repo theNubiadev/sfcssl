@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Building, PlayCircle, Check, ArrowLeft, ArrowRight } from "lucide-react";
+import { Building, PlayCircle, Check, ArrowRight } from "lucide-react";
 interface Services {
   icon: React.ElementType;
   tag: string;
@@ -69,6 +69,31 @@ export default function Service() {
       ],
       note: "Bespoke to you",
     },
+    {
+      icon: Building,
+      tag: "Commercial CLeaning",
+      title: "Clean Workspaces. Productive Teams",
+      link: "Request a Quote",
+      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner — one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
+      features: [
+        { list: "Daily, weekly, and contract commercial cleaning programmes" },
+        {
+          list: "Office cleaning including desks, floors, kitchens, and washrooms",
+        },
+        {
+          list: "Schools, nurseries, and educational settings with child-safe products",
+        },
+        {
+          list: "Healthcare and clinical environments requiring infection control standards",
+        },
+        { list: "Retail, hospitality, and customer-facing venue cleaning" },
+        { list: "End-of-tenancy and post-construction deep cleans" },
+        {
+          list: "High-touch surface and communal area disinfection programmes",
+        },
+      ],
+      note: "Tailored to your business",
+    },
   ];
   return (
     <>
@@ -80,7 +105,7 @@ export default function Service() {
               What we do
             </div>
 
-            <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold  leading-[1.5] text-main">
+            <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold  leading-normal text-main">
               Four Pillars of <br />
               Professional Service
             </h2>
@@ -95,7 +120,7 @@ export default function Service() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {services.map((services) => {
+          {services.slice(0, 2).map((services) => {
             const Icon = services.icon;
             return (
               <div
