@@ -72,19 +72,19 @@ export default function About() {
 
         <div className="relative grid md:grid-cols-2 gap-24 items-center    ">
           <div className="reveal">
-            <div className="bg-gradient-to-br from-[#152a4e] to-[#0d1f3c] border border-[#c8973a]/20 rounded-xl p-12 relative overflow-hidden">
-              <div className="absolute top-[-10px] left-[20px] text-[12rem] text-[#c8973a]/10 font-[var(--font-cormorant)] leading-none">
+            <div className="bg-linear-to-br from-[#152a4e] to-[#0d1f3c] border border-[#c8973a]/20 rounded-xl p-12 relative overflow-hidden">
+              <div className="absolute -top-2.5 left-5 text-[12rem] text-[#c8973a]/10 font-cormorant leading-none">
                 “
               </div>
 
-              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#c8973a] to-[#e2b660] flex items-center justify-center text-3xl mb-6 border-4 border-[#c8973a]/30">
-                {/* 👩🏾 */}
+              <div className="w-20 h-20 rounded-full bg-linear-to-br from-[#c8973a] to-[#e2b660] flex items-center justify-center text-3xl mb-6 border-4 border-[#c8973a]/30">
+                👩🏾
                 <Avatar>
                   <AvatarImage src="/public/hero.png" alt="" />
                 </Avatar>
               </div>
 
-              <p className="font-cormorant font-mont text-[1.25rem] italic text-[#fdf8f0] leading-[1.7] mb-6">
+              <p className=" font-mont text-[1.25rem] italic text-[#fdf8f0] leading-[1.7] mb-6">
                 "I started this company because I believe everyone deserves to
                 live and work in a clean, safe, and well-supported environment —
                 and that the people who make that possible should be treated
@@ -120,7 +120,7 @@ export default function About() {
 
           <div className="reveal reveal-delay-2">
             <div className="text-[0.68rem] font-mont font-semibold tracking-[4px] uppercase text-[#e2b660] flex items-center gap-3 mb-3">
-              <span className="w-[30px] h-[2px] bg-[#e2b660]" />
+              <span className="w-7.5 h-0.5 bg-[#e2b660]" />
               Our Story
             </div>
             <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold leading-[1.15] text-[#fffdf9] mb-6">
