@@ -1,16 +1,16 @@
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#081529] px-[6%] pt-16 pb-8 border-t-[3px] border-[#c8973a]">
+      <footer className="bg-main px-[6%] pt-16 pb-8 border-t-[3px] border-sub">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <span className="font-cormorant text-[1.8rem] font-bold text-[#fffdf9] block mb-1">
-              <span className="text-[#c8973a]">SF</span>CSSL
+              <span className="text-sub">SF</span>CSSL
             </span>
             <span className="text-[0.68rem] tracking-[2.5px] uppercase text-[#8899b0] block mb-4">
               SF Care and Support Services Ltd
             </span>
-            <p className="text-[0.84rem] font-mont text-[#fdf8f0]/50 leading-[1.8] max-w-[300px]">
+            <p className="text-[0.84rem] font-mont text-[#fdf8f0]/50 leading-[1.8] max-w-75">
               A Greater Manchester based professional services company
               delivering healthcare staffing, domestic and commercial cleaning,
               and concierge lifestyle support.
@@ -24,22 +24,22 @@ export default function Footer() {
 
             <ul className="space-y-3 font-mont text-[0.83rem] text-[#fdf8f0]/50">
               <li>
-                <a href="#services" className="hover:text-[#e2b660]">
+                <a href="#services" className="hover:text-sub">
                   Healthcare Staffing
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-[#e2b660]">
+                <a href="#services" className="hover:text-sub">
                   Domestic Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-[#e2b660]">
+                <a href="#services" className="hover:text-sub">
                   Commercial Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-[#e2b660]">
+                <a href="#services" className="hover:text-sub">
                   Concierge &amp; Hospitality
                 </a>
               </li>
@@ -47,22 +47,22 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="text-[0.68rem] font-mont font-bold tracking-[3px] uppercase text-[#c8973a] mb-5">
+            <div className="text-[0.68rem] font-mont font-bold tracking-[3px] uppercase text-sub mb-5">
               Company
             </div>
             <ul className="space-y-3 font-mont text-[0.83rem] text-[#fdf8f0]/50">
               <li>
-                <a href="#about" className="hover:text-[#e2b660]">
+                <a href="#about" className="hover:text-sub">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="hover:text-[#e2b660]">
+                <a href="#testimonials" className="hover:text-sub">
                   Testimonials
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-[#e2b660]">
+                <a href="#contact" className="hover:text-sub">
                   Contact Us
                 </a>
               </li>
@@ -74,14 +74,14 @@ export default function Footer() {
             </div>
             <ul className="space-y-3 font-mont text-[0.83rem] text-[#fdf8f0]/50">
               <li>
-                <a href="tel:01619711824" className="hover:text-[#e2b660]">
+                <a href="tel:01619711824" className="hover:text-sub">
                   0161 971 1824
                 </a>
               </li>
               <li>
                 <a
                   href="mailto:info@sfcssl.co.uk"
-                  className="hover:text-[#e2b660]"
+                  className="hover:text-sub"
                 >
                   info@sfcssl.co.uk
                 </a>
@@ -89,7 +89,7 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:hr@sfcssl.co.uk"
-                  className="hover:text-[#e2b660]"
+                  className="hover:text-sub"
                 >
                   hr@sfcssl.co.uk
                 </a>
