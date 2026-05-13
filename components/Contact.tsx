@@ -157,29 +157,27 @@ export default function Contact() {
                     placeholder="Your contact number"
                   />
                 </Field>
-
                 <Field className="flex flex-col gap-2">
-                  <FieldLabel className="font-mont  text-[0.7rem] font-semibold tracking-[1.5px] uppercase text-[#4a5e78]">
+                  <FieldLabel className="font-mont text-[0.7rem] font-semibold tracking-[1.5px] uppercase text-[#4a5e78]">
                     Service You Are Interested In
                   </FieldLabel>
+
                   <Select>
-                    <SelectTrigger className="bg-[#fdf8f0] border border-[#f0e8d8] rounded-md px-4 py-3 text-[0.88rem] outline-none focus:border-[#c8973a] focus:ring-2 focus:ring-[#c8973a]/20">
-                      <SelectValue
-                        className="font-mont"
-                        placeholder="Please select a value"
-                      />
+                    <SelectTrigger className="font-mont bg-[#fdf8f0] border border-[#f0e8d8] rounded-md px-4 py-3 text-[0.88rem] outline-none focus:border-[#c8973a] focus:ring-2 focus:ring-[#c8973a]/20">
+                      <SelectValue placeholder="Please select a value" />
                     </SelectTrigger>
 
-                    <SelectContent className="">
-                      <SelectGroup className="">
+                    <SelectContent>
+                      <SelectGroup>
                         <SelectLabel className="font-mont">
                           Services
                         </SelectLabel>
+
                         {items.map((item) => (
                           <SelectItem
-                            className="font-mont"
                             key={item.value}
                             value={item.value}
+                            className="font-mont text-[0.88rem]"
                           >
                             {item.label}
                           </SelectItem>
