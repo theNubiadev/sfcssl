@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import {
   Building,
   PlayCircle,
+  Mail,
   Check,
   ArrowLeft,
   ArrowRight,
@@ -238,14 +239,14 @@ export default function Service() {
 
           <p className="text-[1rem] font-mont text-[rgba(253,248,240,0.7)] leading-[1.9] max-w-130 mb-10">
             From healthcare staffing to home cleaning and concierge lifestyle
-            support — every service we provide is built on the same foundation:
+            support every service we provide is built on the same foundation:
             skilled, vetted professionals who take pride in what they do.
           </p>
         </div>
       </section>
 
       <section className="px-[6%] py-28 bg-[#fdf8f0] mt-20">
-        <div className="grid bg-[url('/hero.png')] bg-cover bg-center md:grid-cols-2 gap-12 items-end mb-16 reveal">
+        <div className="grid  bg-cover bg-center md:grid-cols-2 gap-12 items-end mb-16 reveal">
           <div className="">
             <div className="font-semibold tracking-light uppercase font-mont flex items-center gap-3 mb-3  text-main">
               <span className="w-7.5  h-0.5 bg-sub" />
@@ -413,6 +414,47 @@ export default function Service() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        className="relative px-[6%] py-24 bg-[linear-gradient(135deg,#152a4e_0%,#081529_100%)] text-center overflow-hidden"
+      >
+        <div className="relative max-w-160 mx-auto reveal">
+          <div className="flex items-center justify-center font-mont gap-3 text-[0.68rem] font-semibold tracking-[4px] uppercase text-sub mb-3">
+            <span className="w-7.5 h-0.5 bg-sub"></span>
+            Ready to Get Started?
+          </div>
+
+          <h2 className="font-cormorant text-[clamp(2rem,4vw,3rem)] font-bold text-[#fffdf9] mb-4 leading-[1.15]">
+            Let's Talk About
+            <br />
+            How We Can Help
+          </h2>
+
+          <p className="text-[0.95rem] font-mont text-[rgba(253,248,240,0.65)] leading-[1.85] mb-10 font-light">
+            Whether you need a healthcare professional tomorrow, a regular
+            cleaner for your home, or a trusted concierge to lighten the load we
+            are here and ready to help.
+          </p>
+
+          <div className="flex justify-center gap-4 flex-wrap">
+            <a
+              href="tel:01619711824"
+              className="inline-flex font-mont items-center gap-2 bg-[#c8973a] text-[#081529] px-8 py-4 rounded-md font-semibold text-[0.85rem] hover:bg-[#e2b660] transition"
+            >
+              <Phone />
+              Call 0161 971 1824
+            </a>
+
+            <a
+              href="mailto:info@sfcssl.co.uk"
+              className="inline-flex  font-mont items-center gap-2 border border-[rgba(200,151,58,0.4)] text-[#e2b660] px-8 py-4 rounded-md font-semibold text-[0.85rem] hover:bg-[#c8973a] hover:text-[#081529] transition"
+            >
+              <Mail /> info@sfcssl.co.uk
+            </a>
+          </div>
         </div>
       </section>
 
