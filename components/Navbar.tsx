@@ -102,7 +102,7 @@ export default function Navbar() {
 
         <li>
           <Link href="/contact" onClick={removeNav}>
-            <Button className="bg-main text-white">Contact Us</Button>
+            <Button className="bg-main text-white font-mont">Contact Us</Button>
           </Link>
         </li>
       </ul>

@@ -88,7 +88,7 @@ export default function Home() {
           />
 
           {/* glows */}
-          <div className="absolute w-175 h-175 rounded-full bg-[radial-gradient(circle,rgba(200,151,58,0.08)_0%,transparent_65%)] top-1/2 -right-50 -translate-y-1/2 pointer-events-none" />
+          <div className="absolute w-175 h-175 rounded-full bg-[radial-gradient(circle,rgba(200,151,58,0.08)_0%,transparent_65%)] top-1/2 right-50 -translate-y-1/2 pointer-events-none" />
           <div className="absolute w-100 h-100 rounded-full bg-[radial-gradient(circle,rgba(200,151,58,0.06)_0%,transparent_65%)] -bottom-25 left-[10%] pointer-events-none" />
 
           {/* ↓ Changed: flex-col on mobile, flex-row on desktop, gap between columns */}
