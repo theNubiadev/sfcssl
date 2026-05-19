@@ -61,7 +61,7 @@ export default function About() {
 
   return (
     <>
-      <section className="relative px-[6%] py-28  overflow-hidden bg-[#081529]">
+      <section className="relative px-[6%] py-28  overflow-hidden bg-main">
         <div
           className="absolute inset-0 opacity-100"
           style={{
