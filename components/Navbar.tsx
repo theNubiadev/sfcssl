@@ -43,12 +43,19 @@ export default function Navbar() {
   return (
     <nav className="fixed z-50 w-full flex p-4 bg-white lg:px-8 lg:py-5 lg:items-center lg:justify-between">
       {/* Logo */}
+
       <div>
-        <Link href="/">
-          <h2 className="text-main">
+        <Link
+          href="/"
+          className=" no-underline text-inherit flex flex-col leading-none"
+        >
+          <span className="font-cormorant text-[1.6rem] font-bold tracking-[1px] text-main">
             <span className="text-sub">SF</span>CSSL
-          </h2>
-          <p className="capitalize text-light">Care & Support Services LTD</p>
+          </span>
+
+          <span className="mt-0.5 text-[0.58rem] font-medium font-mont tracking-[3px] uppercase text-[#8899b0]">
+            Care & Support Services Ltd
+          </span>
         </Link>
       </div>
 
@@ -107,3 +114,4 @@ export default function Navbar() {
     </nav>
   );
 }
+ 
