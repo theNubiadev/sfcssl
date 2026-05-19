@@ -18,7 +18,7 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/public/hero.png";
-
+import Testimonials from "@/components/Testimonials";
 interface Feature {
   label: string;
   icon: React.ElementType;
@@ -72,7 +72,7 @@ export default function Home() {
 
   return (
     <>
-     <Navbar />
+      <Navbar />
       <div className="">
         <section
           id="home"
@@ -202,6 +202,9 @@ export default function Home() {
 
         {/* About Component */}
         <About />
+
+        {/* Testimonials */}
+        <Testimonials />
 
         {/* Contact */}
         <Contact />
