@@ -62,7 +62,7 @@
 
 :root {
   --main: lab(6.76% 2.36 -15.25);
-  --sub: oklab(70.622% 0.02097 0.12077);
+  --sub: #c8973a;
   --light: #4a5e78;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
