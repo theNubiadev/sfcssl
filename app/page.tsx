@@ -88,19 +88,19 @@ export default function Home() {
           />
 
           {/* glows */}
-          <div className="absolute w-[700px] h-[700px] rounded-full bg-[radial-gradient(circle,rgba(200,151,58,0.08)_0%,transparent_65%)] top-1/2 right-[-200px] -translate-y-1/2 pointer-events-none" />
-          <div className="absolute w-[400px] h-[400px] rounded-full bg-[radial-gradient(circle,rgba(200,151,58,0.06)_0%,transparent_65%)] bottom-[-100px] left-[10%] pointer-events-none" />
+          <div className="absolute w-175 h-175 rounded-full bg-[radial-gradient(circle,rgba(200,151,58,0.08)_0%,transparent_65%)] top-1/2 -right-50 -translate-y-1/2 pointer-events-none" />
+          <div className="absolute w-100 h-100 rounded-full bg-[radial-gradient(circle,rgba(200,151,58,0.06)_0%,transparent_65%)] -bottom-25 left-[10%] pointer-events-none" />
 
           {/* ↓ Changed: flex-col on mobile, flex-row on desktop, gap between columns */}
           <div className="relative z-10 flex flex-col lg:flex-row items-center gap-12 w-full">
             {/* Text content */}
-            <div className="flex-1 max-w-[700px]">
+            <div className="flex-1 max-w-175">
               <div
                 className="inline-flex items-center gap-2 bg-sub/10 border border-sub/25 text-sub text-[0.72rem] font-quick font-semibold tracking-[2.5px] uppercase px-4 py-2 rounded-full mb-7"
                 style={{ animation: "fadeDown 0.8s ease forwards" }}
               >
                 <div
-                  className="w-[7px] h-[7px] rounded-full bg-sub"
+                  className="w-1.75 h-1.75 rounded-full bg-sub"
                   style={{ animation: "pulse-dot 2s ease-in-out infinite" }}
                 />
                 Proudly Serving Greater Manchester
@@ -118,7 +118,7 @@ export default function Home() {
               </h1>
 
               <p
-                className="text-[1.05rem] font-mont text-light leading-[1.9] max-w-[540px] mb-10"
+                className="text-[1.05rem] font-mont text-light leading-[1.9] max-w-135 mb-10"
                 style={{ animation: "fadeUp 0.9s 0.2s ease both" }}
               >
                 SF Care and Support Services Ltd brings together healthcare
@@ -172,12 +172,12 @@ export default function Home() {
               <Image
                 src={Hero}
                 alt="Hero"
-                className="w-full max-w-[500px] lg:max-w-none object-contain"
+                className="w-full max-w-125 lg:max-w-none object-contain"
               />
             </div>
           </div>
         </section>
-        <div className="h-[3px] bg-[linear-gradient(90deg,#081529,#c8973a,#e2b660,#c8973a,#081529)]" />
+        <div className="h-0.75 bg-[linear-gradient(90deg,#081529,#c8973a,#e2b660,#c8973a,#081529)]" />
 
         <div className="bg-main px-[6%] py-6 flex justify-center items-center flex-wrap">
           {service.map((service, idx) => {
