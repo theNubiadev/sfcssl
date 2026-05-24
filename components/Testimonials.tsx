@@ -20,7 +20,7 @@ const TESTIMONIALS: Testimony[] = [
       "Finding reliable healthcare staff at short notice used to be one of our biggest challenges. Since partnering with SF Care and Support Services, that problem is behind us.",
     author: {
       name: "Margaret T.",
-      role: "Registered Manager, Care Home — Salford",
+      role: "Registered Manager, Care Home  Salford",
       avatar: "👩",
     },
   },
@@ -30,7 +30,7 @@ const TESTIMONIALS: Testimony[] = [
       "We brought SFCSSL in to manage our office cleaning contract and the difference was immediate. The team is punctual, thorough, and completely professional.",
     author: {
       name: "James O.",
-      role: "Operations Director — Manchester City Centre",
+      role: "Operations Director  Manchester City Centre",
       avatar: "👨",
     },
   },
@@ -40,7 +40,7 @@ const TESTIMONIALS: Testimony[] = [
       "As a working mother of three, I simply did not have the time or energy to keep on top of everything at home. The concierge team has been an absolute blessing.",
     author: {
       name: "Amara S.",
-      role: "Working Parent & Private Client — Trafford",
+      role: "Working Parent & Private Client  Trafford",
       avatar: "👩",
     },
   },
@@ -50,7 +50,7 @@ const TESTIMONIALS: Testimony[] = [
       "From the very first visit I knew I had made the right choice. My cleaner is punctual, careful with my belongings, and does an outstanding job every single time.",
     author: {
       name: "Patricia A.",
-      role: "Retired Client — Stockport",
+      role: "Retired Client  Stockport",
       avatar: "👵",
     },
   },
@@ -66,7 +66,7 @@ function TestimonialCard({ stars = 5, service, description, author }: Testimony)
       )}
     >
       <CardContent className="p-8">
-        {/* Top row — stars + service badge */}
+        {/* Top row  stars + service badge */}
         <div className="flex items-start justify-between mb-5">
           <span className="text-amber-500 tracking-widest text-sm">
             {"★".repeat(stars)}{"☆".repeat(5 - stars)}

@@ -49,13 +49,13 @@ export default function About() {
       icon: Star,
       title: "Consistent Excellence",
       description:
-        "We hold ourselves to a high standard on every job — no matter how big or small.",
+        "We hold ourselves to a high standard on every job no matter how big or small.",
     },
     {
       icon: Heart,
       title: "Genuine Care",
       description:
-        "Behind every service is a real human connection — we care about the people we work with and for.",
+        "Behind every service is a real human connection we care about the people we work with and for.",
     },
   ];
 
@@ -86,7 +86,7 @@ export default function About() {
 
               <p className=" font-mont text-[1.25rem] italic text-[#fdf8f0] leading-[1.7] mb-6">
                 "I started this company because I believe everyone deserves to
-                live and work in a clean, safe, and well-supported environment —
+                live and work in a clean, safe, and well-supported environment,
                 and that the people who make that possible should be treated
                 with the highest professional standards."
               </p>
@@ -133,7 +133,7 @@ export default function About() {
               out of a deep passion for people and community. Having seen
               first-hand how much a clean, safe, and well-supported environment
               can transform a person's quality of life, Rebecca set out to build
-              a company that would make that difference — professionally,
+              a company that would make that difference professionally,
               reliably, and with genuine heart
             </p>
             <p className="text-[0.92rem] font-mont text-[#fdf8f0]/70 leading-[1.95] mb-6">
@@ -142,7 +142,7 @@ export default function About() {
               help businesses present themselves at their very best; and to
               ensure that vulnerable individuals and elderly clients always have
               a trusted, caring presence nearby. Every member of the SFCSSL team
-              is selected not just for their skills, but for their character —
+              is selected not just for their skills, but for their character,
               because in this work, who you are matters just as much as what you
               can do.
             </p>

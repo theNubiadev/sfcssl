@@ -123,7 +123,7 @@ export default function Home() {
               >
                 SF Care and Support Services Ltd brings together healthcare
                 staffing, professional cleaning, and personalised concierge
-                support — all delivered with warmth, integrity, and a genuine
+                support, all delivered with warmth, integrity, and a genuine
                 commitment to the communities we serve.
               </p>
 

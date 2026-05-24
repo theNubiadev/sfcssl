@@ -192,7 +192,7 @@ export default function Contact() {
                   </FieldLabel>
                   <Textarea
                     className="bg-[#fdf8f0] font-mont border border-[#f0e8d8] rounded-md px-4 py-3 text-[0.88rem] outline-none min-h-32.5 resize-y focus:border-[#c8973a] focus:ring-2 focus:ring-[#c8973a]/20"
-                    placeholder="Please describe what you need and any relevant details — we will get back to you with the right information."
+                    placeholder="Please describe what you need and any relevant details, we will get back to you with the right information."
                   ></Textarea>
                 </Field>
 

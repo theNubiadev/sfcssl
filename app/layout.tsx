@@ -18,10 +18,8 @@ const mont = Montserrat({
   weight: "500",
 });
 
-// export const metadata: Metadata = {
-//   title: "SFCSSL ",
-//   description: "SF Care and Support Services Limited",
-// };
+
+
 export const metadata: Metadata = {
   title: "Our Services | SF Care and Support Services Ltd",
   description:
