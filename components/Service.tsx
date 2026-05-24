@@ -18,7 +18,7 @@ export default function Service() {
       tag: "Commercial CLeaning",
       title: "Clean Workspaces. Productive Teams",
       link: "Request a Quote",
-      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner — one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
+      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
       features: [
         { list: "Daily, weekly, and contract commercial cleaning programmes" },
         {
@@ -43,7 +43,7 @@ export default function Service() {
       tag: "Concierege and Hospitality",
       title: "Personal Support, Delivered with Warmth.",
       link: "Enquire about Concierge",
-      desc: "Life gets busy. For working families, elderly individuals, or anyone who simply needs an extra pair of trusted hands, our concierge and hospitality service provides practical, personal support right where it matters most — in your home. We go beyond cleaning to offer a genuinely comprehensive lifestyle support service. Our team members are warm, discreet, and thoroughly vetted, so you can trust them in your home without hesitation.",
+      desc: "Life gets busy. For working families, elderly individuals, or anyone who simply needs an extra pair of trusted hands, our concierge and hospitality service provides practical, personal support right where it matters most in your home. We go beyond cleaning to offer a genuinely comprehensive lifestyle support service. Our team members are warm, discreet, and thoroughly vetted, so you can trust them in your home without hesitation.",
       features: [
         {
           list: "Home cooking and meal preparation using your preferred recipes or dietary needs",
@@ -74,7 +74,7 @@ export default function Service() {
       tag: "Commercial CLeaning",
       title: "Clean Workspaces. Productive Teams",
       link: "Request a Quote",
-      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner — one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
+      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
       features: [
         { list: "Daily, weekly, and contract commercial cleaning programmes" },
         {
@@ -110,7 +110,7 @@ export default function Service() {
               Professional Service
             </h2>
             <p className="text-[0.9rem] text-main leading-[1.9] font-mont border-l-4 border-[#c8973a] pl-6">
-              Every service we offer is built on the same foundation — skilled,
+              Every service we offer is built on the same foundation , skilled,
               vetted professionals who care deeply about the work they do and
               the people they serve. Whether we are staffing a ward, cleaning an
               office, or preparing a meal in your home, the standard never

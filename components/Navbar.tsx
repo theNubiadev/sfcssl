@@ -50,7 +50,7 @@ export default function Navbar() {
           className=" no-underline text-inherit flex flex-col leading-none"
         >
           <span className="font-cormorant text-[1.6rem] font-bold tracking-[1px] text-main">
-            <span className="text-sub">SF</span>CSSL
+            <span className="text-sub">SF</span>
           </span>
 
           <span className="mt-0.5 text-[0.58rem] font-medium font-mont tracking-[3px] uppercase text-[#8899b0]">
