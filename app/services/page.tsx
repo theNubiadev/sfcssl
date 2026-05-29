@@ -3,18 +3,15 @@ import { useState } from "react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import {
-  Building,
-  PlayCircle,
   Mail,
   Check,
-  ArrowLeft,
   ArrowRight,
   Bubbles,
   TowelRack,
   Plus,
-  BugIcon,
   Phone,
   Quote,
+  Metronome,
   ListStart,
 } from "lucide-react";
 import Image from "next/image";
@@ -41,42 +38,12 @@ export default function Service() {
 
   const services: Services[] = [
     {
-      icon: Building,
-      image: "/care.jpeg",
-      tag: "Healthcare Staffing",
-      title: "Qualified Healthcare Professionals, When You Need Them",
-      link: "Request Healthcare Staff",
-      desc: "We supply skilled, fully vetted healthcare professionals to NHS trusts, private care homes, hospitals, and supported living facilities across Greater Manchester. Every candidate we place is thoroughly screened, reference-checked, and DBS cleared before they set foot on your premises. We understand the pressures of the care sector — so whether you need emergency cover at short notice or a long-term placement, we respond quickly, reliably, and with candidates who are genuinely ready to work.",
-      features: [
-        {
-          list: "Registered General Nurses (RGN) and Mental Health Nurses (RMN)",
-        },
-        {
-          list: "Healthcare Assistants (HCA) across all dependency levels",
-        },
-        {
-          list: "Support Workers for adults and children with complex needs",
-        },
-        {
-          list: "Emergency, short-term, and permanent placement options",
-        },
-        {
-          list: "All staff fully DBS checked, referenced, and compliance verified",
-        },
-        { list: "24/7 on-call booking line for urgent staffing requests" },
-        {
-          list: "Specialist placements for dementia, mental health, and learning disabilities",
-        },
-      ],
-      note: "Fast Response Guaranteed",
-    },
-    {
       icon: Bubbles,
       image: "/domestic.jpeg",
       tag: "Domestic Cleaning",
       title: "A Cleaner Home. A Calmer Life.",
       link: "Enquire about Concierge",
-      desc: "Life gets busy. For working families, elderly individuals, or anyone who simply needs an extra pair of trusted hands, our concierge and hospitality service provides practical, personal support right where it matters most — in your home. We go beyond cleaning to offer a genuinely comprehensive lifestyle support service. Our team members are warm, discreet, and thoroughly vetted, so you can trust them in your home without hesitation.",
+      desc: "Life gets busy. For working families, elderly individuals, or anyone who simply needs an extra pair of trusted hands, our concierge and hospitality service provides practical, personal support right where it matters most in your home. We go beyond cleaning to offer a genuinely comprehensive lifestyle support service. Our team members are warm, discreet, and thoroughly vetted, so you can trust them in your home without hesitation.",
       features: [
         {
           list: "Home cooking and meal preparation using your preferred recipes or dietary needs",
@@ -103,12 +70,38 @@ export default function Service() {
       note: "Bespoke to you",
     },
     {
+      icon: Metronome,
+      image: "/office.jpeg",
+      tag: "Commercial CLeaning",
+      title: "Clean Workspaces. Productive Teams",
+      link: "Request a Quote",
+      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
+      features: [
+        { list: "Daily, weekly, and contract commercial cleaning programmes" },
+        {
+          list: "Office cleaning including desks, floors, kitchens, and washrooms",
+        },
+        {
+          list: "Schools, nurseries, and educational settings with child-safe products",
+        },
+        {
+          list: "Healthcare and clinical environments requiring infection control standards",
+        },
+        { list: "Retail, hospitality, and customer-facing venue cleaning" },
+        { list: "End-of-tenancy and post-construction deep cleans" },
+        {
+          list: "High-touch surface and communal area disinfection programmes",
+        },
+      ],
+      note: "Tailored to your business",s
+    },
+    {
       icon: TowelRack,
       image: "/concierge.jpeg",
       tag: "Concierege and Hospitality",
       title: "Personal Support, Delivered with Warmth.",
       link: "Book a Home Clean",
-      desc: "Life gets busy. For working families, elderly individuals, or anyone who simply needs an extra pair of trusted hands, our concierge and hospitality service provides practical, personal support right where it matters most — in your home. We go beyond cleaning to offer a genuinely comprehensive lifestyle support service. Our team members are warm, discreet, and thoroughly vetted, so you can trust them in your home without hesitation.",
+      desc: "Life gets busy. For working families, elderly individuals, or anyone who simply needs an extra pair of trusted hands, our concierge and hospitality service provides practical, personal support right where it matters most in your home. We go beyond cleaning to offer a genuinely comprehensive lifestyle support service. Our team members are warm, discreet, and thoroughly vetted, so you can trust them in your home without hesitation.",
       features: [
         {
           list: "Regular weekly or fortnightly home cleans tailored to your routine",
@@ -135,30 +128,34 @@ export default function Service() {
       note: "Flexible Scheduling",
     },
     {
-      icon: Building,
-      image: "/office.jpeg",
-      tag: "Commercial CLeaning",
-      title: "Clean Workspaces. Productive Teams",
-      link: "Request a Quote",
-      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner — one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
+      icon: Metronome,
+      image: "/care.jpeg",
+      tag: "Healthcare Staffing",
+      title: "Qualified Healthcare Professionals, When You Need Them",
+      link: "Request Healthcare Staff",
+      desc: "We supply skilled, fully vetted healthcare professionals to NHS trusts, private care homes, hospitals, and supported living facilities across Greater Manchester. Every candidate we place is thoroughly screened, reference-checked, and DBS cleared before they set foot on your premises. We understand the pressures of the care sector so whether you need emergency cover at short notice or a long-term placement, we respond quickly, reliably, and with candidates who are genuinely ready to work.",
       features: [
-        { list: "Daily, weekly, and contract commercial cleaning programmes" },
         {
-          list: "Office cleaning including desks, floors, kitchens, and washrooms",
+          list: "Registered General Nurses (RGN) and Mental Health Nurses (RMN)",
         },
         {
-          list: "Schools, nurseries, and educational settings with child-safe products",
+          list: "Healthcare Assistants (HCA) across all dependency levels",
         },
         {
-          list: "Healthcare and clinical environments requiring infection control standards",
+          list: "Support Workers for adults and children with complex needs",
         },
-        { list: "Retail, hospitality, and customer-facing venue cleaning" },
-        { list: "End-of-tenancy and post-construction deep cleans" },
         {
-          list: "High-touch surface and communal area disinfection programmes",
+          list: "Emergency, short-term, and permanent placement options",
+        },
+        {
+          list: "All staff fully DBS checked, referenced, and compliance verified",
+        },
+        { list: "24/7 on-call booking line for urgent staffing requests" },
+        {
+          list: "Specialist placements for dementia, mental health, and learning disabilities",
         },
       ],
-      note: "Tailored to your business",
+      note: "Fast Response Guaranteed",
     },
   ];
 
@@ -184,7 +181,7 @@ export default function Service() {
       a: "We cover the full Greater Manchester area including Manchester City Centre, Salford, Trafford, Stockport, Tameside, Bolton, Wigan, Oldham, Rochdale, and surrounding areas.",
     },
     {
-      q: "How does the concierge service work — is there a minimum commitment?",
+      q: "How does the concierge service work is there a minimum commitment?",
       a: "Our concierge service is completely bespoke. Whether you need help three hours a week or every day, we will create something that works for your schedule and budget.",
     },
   ];
@@ -258,7 +255,7 @@ export default function Service() {
               Professional Service
             </h2>
             <p className="text-[0.9rem] text-white leading-[1.9] font-mont border-l-4 border-[#c8973a] pl-6">
-              Every service we offer is built on the same foundation — skilled,
+              Every service we offer is built on the same foundation skilled,
               vetted professionals who care deeply about the work they do and
               the people they serve. Whether we are staffing a ward, cleaning an
               office, or preparing a meal in your home, the standard never
