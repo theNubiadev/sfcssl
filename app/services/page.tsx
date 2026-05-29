@@ -425,7 +425,6 @@ export default function Service() {
             <br />
             How We Can Help
           </h2>
-
           <p className="text-[0.95rem] font-mont text-[rgba(253,248,240,0.65)] leading-[1.85] mb-10 font-light">
             Whether you need a healthcare professional tomorrow, a regular
             cleaner for your home, or a trusted concierge to lighten the load we
