@@ -275,45 +275,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* ── TIMELINE ──
-      <section className="px-[6%] py-24 bg-main relative overflow-hidden">
-        <div
-          className="absolute inset-0 pointer-events-none opacity-100"
-          style={{
-            backgroundImage:
-              "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c8973a' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4z'/%3E%3C/g%3E%3C/svg%3E\")",
-          }}
-        />
-        <div className="relative max-w-3xl mx-auto">
-          <div className="text-center mb-14">
-            <div className="flex items-center justify-center gap-3 mb-3">
-              <span className="w-7 h-0.5 bg-sub" />
-              <span className="text-[0.68rem] font-mont font-semibold tracking-[4px] uppercase text-sub">
-                Our Journey
-              </span>
-            </div>
-            <h2 className="font-cormorant text-[clamp(2rem,3.5vw,2.8rem)] font-bold leading-tight text-[#fffdf9]">
-              How We Got Here
-            </h2>
-          </div>
-
-          <div className="relative pl-8 border-l-2 border-sub/25 space-y-10">
-            {MILESTONES.map((m, i) => (
-              <div key={i} className="relative group">
-                {/* Dot */}
-                {/* <div className="absolute left-[-2.15rem] top-1 w-4 h-4 rounded-full bg-sub border-4 border-[#081529] group-hover:scale-125 transition-transform duration-300" />
-                <span className="text-[0.7rem] font-mont font-bold text-sub tracking-widest uppercase mb-1 block">
-                  {m.year}
-                </span>
-                <p className="text-[0.92rem] font-mont text-[#fdf8f0]/75 leading-relaxed">
-                  {m.event}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */} 
-
+    
       {/* ── TEAM  */}
       <section className="px-[6%] py-24 bg-[#fdf8f0]">
         <div className="text-center mb-14">
