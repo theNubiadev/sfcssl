@@ -93,7 +93,7 @@ export default function Service() {
           list: "High-touch surface and communal area disinfection programmes",
         },
       ],
-      note: "Tailored to your business",s
+      note: "Tailored to your business",
     },
     {
       icon: TowelRack,
@@ -245,16 +245,12 @@ export default function Service() {
       <section className="px-[6%] py-28 bg-[#fdf8f0] mt-20">
         <div className="grid  bg-cover bg-center md:grid-cols-2 gap-12 items-end mb-16 reveal">
           <div className="">
-            <div className="font-semibold tracking-light uppercase font-mont flex items-center gap-3 mb-3  text-main">
-              <span className="w-7.5  h-0.5 bg-sub" />
-              What we do
-            </div>
-
+          
             <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold  leading-normal text-sub">
               Four Pillars of <br />
               Professional Service
             </h2>
-            <p className="text-[0.9rem] text-white leading-[1.9] font-mont border-l-4 border-[#c8973a] pl-6">
+            <p className="text-[0.9rem] text-main leading-[1.9] font-mont border-l-4 border-[#c8973a] pl-6">
               Every service we offer is built on the same foundation skilled,
               vetted professionals who care deeply about the work they do and
               the people they serve. Whether we are staffing a ward, cleaning an
