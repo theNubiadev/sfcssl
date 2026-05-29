@@ -50,7 +50,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: "SF Care and Support Services Ltd",
-  url: "https://yourdomain.com",
+  url: "https://sfcssl.co.uk",
   telephone: "+44 161 971 1824",
   address: {
     "@type": "PostalAddress",
@@ -94,10 +94,10 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">{children}</body>
 
-      <script
+      {/* <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+      /> */}
     </html>
   );
 }
