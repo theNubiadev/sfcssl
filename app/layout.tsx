@@ -18,10 +18,8 @@ const mont = Montserrat({
   weight: "500",
 });
 
-
-
 export const metadata: Metadata = {
-  title: "Our Services | SF Care and Support Services Ltd",
+  title: "SF Care and Support Services Ltd",
   description:
     "Professional healthcare staffing, domestic cleaning, commercial cleaning, and concierge services across Greater Manchester.",
   keywords: [
