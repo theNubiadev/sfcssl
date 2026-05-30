@@ -97,10 +97,7 @@ export default function Footer() {
               <li>Manchester, M2 3WW</li>
             </ul>
           </div>
-
-          
         </div>
-
         <div className="border-t font-mont border-[#fdf8f0]/10 pt-8 flex flex-col md:flex-row justify-between items-start gap-4">
           <p className="text-[0.77rem] text-[#fdf8f0]/40">
             © {new Date().getFullYear()} <span className="text-[#c8973a]">SF Care and Support Services Ltd</span>. Company No. 14788040.
