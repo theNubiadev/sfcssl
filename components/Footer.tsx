@@ -5,10 +5,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <span className="font-cormorant text-[1.8rem] font-bold text-[#fffdf9] block mb-1">
-              <span className="text-sub">SF</span>CSSL
+              <span className="text-sub">SF</span>
             </span>
             <span className="text-[0.68rem] tracking-[2.5px] uppercase text-[#8899b0] block mb-4">
-              SF Care and Support Services Ltd
+              Care and Support Services Ltd
             </span>
             <p className="text-[0.84rem] font-mont text-[#fdf8f0]/50 leading-[1.8] max-w-75">
               A Greater Manchester based professional services company
