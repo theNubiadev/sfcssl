@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { Avatar, AvatarImage } from "./ui/avatar";
-import Hero from "@/public/hero.png";
+import Hero from "@/public/cleaning.jpeg";
 import { HandHeart, Shield, Star, Heart } from "lucide-react";
 interface Deal {
   title: string;
@@ -79,9 +79,9 @@ export default function About() {
 
               <div className="w-20 h-20 rounded-full bg-linear-to-br from-[#c8973a] to-[#e2b660] flex items-center justify-center text-3xl mb-6 border-4 border-[#c8973a]/30">
                 👩🏾
-                <Avatar>
-                  <AvatarImage src="/public/hero.png" alt="" />
-                </Avatar>
+                {/* <Avatar>
+                  <AvatarImage src="/public/cleaning.jpeg" alt="" />
+                </Avatar> */}
               </div>
 
               <p className=" font-mont text-[1.25rem] italic text-[#fdf8f0] leading-[1.7] mb-6">
