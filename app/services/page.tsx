@@ -246,7 +246,7 @@ export default function Service() {
         <div className="grid  bg-cover bg-center md:grid-cols-2 gap-12 items-end mb-16 reveal">
           <div className="">
           
-            <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold  leading-normal text-sub">
+            <h2 className="font-mont text-[clamp(2.2rem,4vw,3.2rem)] font-bold  leading-normal text-sub">
               Four Pillars of <br />
               Professional Service
             </h2>
@@ -286,7 +286,7 @@ export default function Service() {
                   <div className="inline-block font-mont bg-[#c8973a]/10 text-[#c8973a] text-[0.65rem] font-semibold tracking-[2px] uppercase px-3 py-1 rounded-full mb-2">
                     {services.tag}
                   </div>
-                  <h3 className="font-cormorant) text-[1.6rem] font-bold text-[#0d1f3c]">
+                  <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
                     {services.title}
                   </h3>
                 </div>
@@ -332,7 +332,7 @@ export default function Service() {
             <span className="w-7.5 h-0.5 bg-sub"></span>
             Simple Process
           </div>
-          <h2 className="text-[clamp(2rem,3.5vw,2.8rem)]  font-cormorant  font-bold text-[#0d1f3c] mb-4">
+          <h2 className="text-[clamp(2rem,3.5vw,2.8rem)]  font-mont  font-bold text-[#0d1f3c] mb-4">
             Getting Started is Easy
           </h2>
           <p className="text-[0.92rem]  font-mont text-[#4a5e78] leading-[1.9] max-w-130 mx-auto font-light">
@@ -350,7 +350,7 @@ export default function Service() {
                 key={process.title}
                 className="text-center p-10 bg-[#fffdf9] rounded-xl border border-[rgba(200,151,58,0.1)] shadow-[0_4px_20px_rgba(13,31,60,0.05)] hover:-translate-y-2 hover:shadow-[0_16px_40px_rgba(13,31,60,0.1)] transition reveal"
               >
-                <span className="font-cormorant text-[3rem] font-bold text-main leading-none mb-2">
+                <span className="font-mont text-[3rem] font-bold text-main leading-none mb-2">
                   {/* {process.num} */}
                 </span>
                 <div className="flex justify-center">
@@ -420,7 +420,7 @@ export default function Service() {
             Ready to Get Started?
           </div>
 
-          <h2 className="font-cormorant text-[clamp(2rem,4vw,3rem)] font-bold text-[#fffdf9] mb-4 leading-[1.15]">
+          <h2 className="font-mont text-[clamp(2rem,4vw,3rem)] font-bold text-[#fffdf9] mb-4 leading-[1.15]">
             Let's Talk About
             <br />
             How We Can Help

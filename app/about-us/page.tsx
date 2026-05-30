@@ -122,7 +122,7 @@ export default function About() {
             {/* Founder quote card */}
             <div className="bg-linear-to-br from-main to-[#0d1f3c] border border-sub/20 rounded-2xl p-10 relative overflow-hidden shadow-2xl">
               {/* Decorative quote */}
-              <div className="absolute -top-4 left-4 text-[11rem] text-sub/8 font-cormorant leading-none select-none pointer-events-none">
+              <div className="absolute -top-4 left-4 text-[11rem] text-sub/8 font-mont leading-none select-none pointer-events-none">
                 "
               </div>
 
@@ -132,7 +132,7 @@ export default function About() {
               </div>
 
               {/* Quote */}
-              <p className="font-cormorant text-[1.3rem] italic text-[#fdf8f0] leading-[1.75] mb-6 relative">
+              <p className="font-mont text-[1.3rem] italic text-[#fdf8f0] leading-[1.75] mb-6 relative">
                 "I started this company because I believe everyone deserves to
                 live and work in a clean, safe, and well-supported environment —
                 and that the people who make that possible should be treated
@@ -141,7 +141,7 @@ export default function About() {
 
               {/* Attribution */}
               <div className="border-t border-sub/20 pt-5 mt-2">
-                <div className="text-[0.88rem] font-cormorant font-semibold text-sub tracking-wide">
+                <div className="text-[0.88rem] font-mont font-semibold text-sub tracking-wide">
                   Rebecca Durodola
                 </div>
                 <div className="text-[0.74rem] font-mont text-[#8899b0] mt-0.5">
@@ -157,7 +157,7 @@ export default function About() {
                   key={i}
                   className="bg-sub/10 border border-sub/20 rounded-xl p-5 text-center hover:bg-sub/15 hover:border-sub/35 transition-all duration-300"
                 >
-                  <h3 className="text-sub font-cormorant font-bold text-3xl tracking-tight mb-1">
+                  <h3 className="text-sub font-mont font-bold text-3xl tracking-tight mb-1">
                     {s.title}
                   </h3>
                   <p className="text-[0.75rem] font-mont text-[#fdf8f0]/55 leading-relaxed uppercase tracking-wider">
@@ -178,7 +178,7 @@ export default function About() {
               </span>
             </div>
 
-            <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold leading-[1.15] text-[#fffdf9]">
+            <h2 className="font-mont text-[clamp(2.2rem,4vw,3.2rem)] font-bold leading-[1.15] text-[#fffdf9]">
               Built on Passion.<br />
               Grounded in Community.
             </h2>
@@ -246,7 +246,7 @@ export default function About() {
               Why SFCSSL
             </span>
           </div>
-          <h2 className="font-cormorant text-[clamp(2rem,3.5vw,2.8rem)] font-bold leading-tight text-[#0d1f3c]">
+          <h2 className="font-mont text-[clamp(2rem,3.5vw,2.8rem)] font-bold leading-tight text-[#0d1f3c]">
             Why Clients Choose Us
           </h2>
           <p className="text-[0.9rem] font-mont text-[#4a5e78] leading-relaxed max-w-xl mx-auto mt-3 font-light">
@@ -285,7 +285,7 @@ export default function About() {
               The People Behind the Service
             </span>
           </div>
-          <h2 className="font-cormorant text-[clamp(2rem,3.5vw,2.8rem)] font-bold leading-tight text-[#0d1f3c]">
+          <h2 className="font-mont text-[clamp(2rem,3.5vw,2.8rem)] font-bold leading-tight text-[#0d1f3c]">
             Meet Our Team
           </h2>
           <p className="text-[0.9rem] font-mont text-[#4a5e78] leading-relaxed max-w-xl mx-auto mt-3 font-light">
@@ -302,7 +302,7 @@ export default function About() {
               <div className="w-20 h-20 rounded-full bg-linear-to-br from-[#0d1f3c] to-main border-4 border-[#f7edd8] flex items-center justify-center text-3xl mx-auto mb-5 group-hover:scale-105 transition-transform duration-300">
                 {member.emoji}
               </div>
-              <h3 className="font-cormorant font-bold text-[1.2rem] text-[#0d1f3c] mb-0.5">
+              <h3 className="font-mont font-bold text-[1.2rem] text-[#0d1f3c] mb-0.5">
                 {member.name}
               </h3>
               <p className="text-[0.68rem] font-mont font-semibold tracking-widest uppercase text-sub mb-3">
@@ -326,7 +326,7 @@ export default function About() {
               A Glimpse Into Our Work
             </span>
           </div>
-          <h2 className="font-cormorant text-[clamp(2rem,3.5vw,2.8rem)] font-bold leading-tight text-[#0d1f3c]">
+          <h2 className="font-mont text-[clamp(2rem,3.5vw,2.8rem)] font-bold leading-tight text-[#0d1f3c]">
             The People &amp; Places We Serve
           </h2>
 
@@ -420,7 +420,7 @@ export default function About() {
               Get In Touch
             </span>
           </div>
-          <h2 className="font-cormorant text-[clamp(2rem,4vw,3rem)] font-bold text-[#fffdf9] leading-tight mb-4">
+          <h2 className="font-mont text-[clamp(2rem,4vw,3rem)] font-bold text-[#fffdf9] leading-tight mb-4">
             Ready to Work With Us?
           </h2>
           <p className="text-[0.95rem] font-mont text-[#fdf8f0]/65 leading-relaxed mb-8 font-light">

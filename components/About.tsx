@@ -73,7 +73,7 @@ export default function About() {
         <div className="relative grid md:grid-cols-2 gap-24 items-center    ">
           <div className="reveal">
             <div className="bg-linear-to-br from-[#152a4e] to-[#0d1f3c] border border-[#c8973a]/20 rounded-xl p-12 relative overflow-hidden">
-              <div className="absolute -top-2.5 left-5 text-[12rem] text-[#c8973a]/10 font-cormorant leading-none">
+              <div className="absolute -top-2.5 left-5 text-[12rem] text-[#c8973a]/10 font-mont leading-none">
                 “
               </div>
 
@@ -91,7 +91,7 @@ export default function About() {
                 with the highest professional standards."
               </p>
 
-              <div className="text-[0.85rem] font-cormorant font-semibold text-[#c8973a] tracking-[1px]">
+              <div className="text-[0.85rem] font-mont font-semibold text-[#c8973a] tracking-[1px]">
                 Rebecca Durodola
               </div>
               <div className="text-[0.75rem] font-mont text-[#8899b0] mt-1">
@@ -123,7 +123,7 @@ export default function About() {
               <span className="w-7.5 h-0.5 bg-[#e2b660]" />
               Our Story
             </div>
-            <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold leading-[1.15] text-[#fffdf9] mb-6">
+            <h2 className="font-mont text-[clamp(2.2rem,4vw,3.2rem)] font-bold leading-[1.15] text-[#fffdf9] mb-6">
               Built on Passion.
               <br />
               Grounded in Community.

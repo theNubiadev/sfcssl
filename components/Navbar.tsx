@@ -49,7 +49,7 @@ export default function Navbar() {
           href="/"
           className=" no-underline text-inherit flex flex-col leading-none"
         >
-          <span className="font-cormorant text-[1.6rem] font-bold tracking-[1px] text-main">
+          <span className="font-mont-[1.6rem] font-bold tracking-[1px] text-main">
             <span className="text-sub">SF</span>
           </span>
 

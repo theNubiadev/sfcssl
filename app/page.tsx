@@ -156,7 +156,7 @@ export default function Home() {
               Proudly Serving Greater Manchester
             </div>
 
-            <h1 className="font-cormorant text-[clamp(3rem,5.5vw,5rem)] font-bold leading-[1.08] text-white mb-6 tracking-tight">
+            <h1 className="font-mont text-[clamp(3rem,5.5vw,5rem)] font-bold leading-[1.08] text-white mb-6 tracking-tight">
               Where <em className="text-sub not-italic">Care</em> Meets
               <br />
               Professional Excellence
@@ -211,7 +211,7 @@ export default function Home() {
           {/* image placeholder — swap for a real photo */}
           <div className="relative w-full aspect-4/3 rounded-2xl overflow-hidden bg-main/5">
             <div className="absolute inset-0 bg-linear-to-br from-main/80 to-main/40 flex items-center justify-center">
-              {/* <span className="font-cormorant text-white/30 text-[5rem] font-bold select-none">
+              {/* <span className="font-mont text-white/30 text-[5rem] font-bold select-none">
                 SF
               </span> */}
               <Image 
@@ -229,7 +229,7 @@ export default function Home() {
             <p className="text-sub text-[0.72rem] font-mont font-bold tracking-[3px] uppercase mb-4">
               Who We Are
             </p>
-            <h2 className="font-cormorant text-[clamp(2rem,3.5vw,3rem)] font-bold text-main leading-tight mb-6">
+            <h2 className="font-mont text-[clamp(2rem,3.5vw,3rem)] font-bold text-main leading-tight mb-6">
               Big Enough to Deliver.
               <br />
               <em className="text-sub">Small Enough to Care.</em>
@@ -268,7 +268,7 @@ export default function Home() {
             <p className="text-sub text-[0.72rem] font-mont font-bold tracking-[3px] uppercase mb-3">
               What We Offer
             </p>
-            <h2 className="font-cormorant text-[clamp(2rem,3.5vw,3rem)] font-bold text-main">
+            <h2 className="font-mont text-[clamp(2rem,3.5vw,3rem)] font-bold text-main">
               Our Services
             </h2>
           </div>
@@ -303,7 +303,7 @@ export default function Home() {
             {/* CTA card */}
             <div className="bg-main rounded-2xl p-8 flex flex-col justify-between gap-6 sm:col-span-2 lg:col-span-1">
               <div>
-                <p className="font-cormorant text-[1.6rem] font-bold text-white leading-tight mb-3">
+                <p className="font-mont text-[1.6rem] font-bold text-white leading-tight mb-3">
                   Not sure which service you need?
                 </p>
                 <p className="font-mont text-white/60 text-[0.88rem] leading-[1.8]">
@@ -334,7 +334,7 @@ export default function Home() {
             <p className="text-sub text-[0.72rem] font-mont font-bold tracking-[3px] uppercase mb-3">
               The SF Care Standard
             </p>
-            <h2 className="font-cormorant text-[clamp(2rem,3.5vw,3rem)] font-bold text-main">
+            <h2 className="font-mont text-[clamp(2rem,3.5vw,3rem)] font-bold text-main">
               Why Clients Trust Us
             </h2>
           </div>
@@ -372,7 +372,7 @@ export default function Home() {
             <p className="text-sub text-[0.72rem] font-mont font-bold tracking-[3px] uppercase mb-3">
               Client Stories
             </p>
-            <h2 className="font-cormorant text-[clamp(2rem,3.5vw,3rem)] font-bold text-white">
+            <h2 className="font-mont text-[clamp(2rem,3.5vw,3rem)] font-bold text-white">
               Kind Words from Happy Clients
             </h2>
             <p className="font-mont text-white/50 mt-3 text-[0.9rem]">
@@ -412,7 +412,7 @@ export default function Home() {
        */}
       <section className="bg-sub px-6 lg:px-[7%] py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-cormorant text-[clamp(2rem,4vw,3.2rem)] font-bold text-main mb-4">
+          <h2 className="font-mont text-[clamp(2rem,4vw,3.2rem)] font-bold text-main mb-4">
             Get a Free, No-Obligation Quote Today
           </h2>
           <p className="font-mont text-main/70 text-[0.95rem] leading-[1.9] mb-10 max-w-xl mx-auto">

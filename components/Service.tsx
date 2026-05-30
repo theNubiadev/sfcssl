@@ -105,7 +105,7 @@ export default function Service() {
               What we do
             </div>
 
-            <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold  leading-normal text-main">
+            <h2 className="font-mont text-[clamp(2.2rem,4vw,3.2rem)] font-bold  leading-normal text-main">
               Four Pillars of <br />
               Professional Service
             </h2>
@@ -134,7 +134,7 @@ export default function Service() {
                   <div className="inline-block font-mont bg-[#c8973a]/10 text-[#c8973a] text-[0.65rem] font-semibold tracking-[2px] uppercase px-3 py-1 rounded-full mb-2">
                     {services.tag}
                   </div>
-                  <h3 className="font-cormorant) text-[1.6rem] font-bold text-[#0d1f3c]">
+                  <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
                     {services.title}
                   </h3>
                 </div>

@@ -65,7 +65,7 @@ export default function Contact() {
               <span className="w-7.5 h-0.5 bg-[#c8973a]" />
               Get In Touch
             </div>
-            <h2 className="font-cormorant text-[clamp(2.2rem,4vw,3.2rem)] font-bold leading-[1.15] text-[#0d1f3c] mb-6">
+            <h2 className="font-mont text-[clamp(2.2rem,4vw,3.2rem)] font-bold leading-[1.15] text-[#0d1f3c] mb-6">
               Let's Talk About
               <br />
               How We Can Help
@@ -105,7 +105,7 @@ export default function Contact() {
           {/* Form */}
           <div className="reveal">
             <div className="bg-[#fffdf9] rounded-xl p-12 border border-[#c8973a]/15 shadow-[0_8px_40px_rgba(13,31,60,0.07)]">
-              <h3 className="font-cormorant text-[1.7rem] font-bold text-[#0d1f3c]">
+              <h3 className="font-mont text-[1.7rem] font-bold text-[#0d1f3c]">
                 Send Us a Message
               </h3>
               <p className="text-[0.83rem] font-mont text-[#8899b0] mt-1 mb-8">
