@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { Button } from "./ui/button";
 import { Building, PlayCircle, Check, ArrowRight } from "lucide-react";
 interface Services {
   icon: React.ElementType;
@@ -173,9 +174,7 @@ export default function Service() {
                 </div>
 
                 <div className="px-8 py-5 flex items-center justify-between  bg-[#fdf8f0] border-t border-[#f0e8d8] font-mont">
-                   <span className="text-[0.72rem] text-light">
-                    {services.note}
-                  </span>
+                 
                  
                  
                   <Link
@@ -193,6 +192,27 @@ export default function Service() {
           })}
         </div>
       </section>
+
+      {/* <div className="justify-center align-center">
+        <div className="bg-main rounded-2xl w-72 p-8 flex flex-col justify-between gap-6 sm:col-span-2 lg:col-span-1">
+              <div>
+                <p className="font-mont text-[1.6rem] font-bold text-white leading-tight mb-3">
+                  Not sure which service you need?
+                </p>
+                <p className="font-mont text-white/60 text-[0.88rem] leading-[1.8]">
+                  Get in touch and we will advise on the best solution for your
+                  home or business.
+                </p>
+              </div>
+              <Button
+                asChild
+                className="bg-sub text-main font-mont font-semibold text-[0.85rem] hover:bg-white hover:text-main transition-all duration-300 w-full"
+                size="lg"
+              >
+                <Link href="/contact">Get a Free Quote</Link>
+              </Button>
+            </div>
+      </div> */}
     </>
   );
 }
