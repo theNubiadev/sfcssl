@@ -1,6 +1,7 @@
 import { Card, CardContent } from "./ui/card";
-import { Badge } from "./ui/badge";
+import { Badge, } from "./ui/badge";
 import { cn } from "@/lib/utils";
+import { Star } from "lucide-react";
 
 interface Testimony {
   stars?: number;
@@ -13,6 +14,24 @@ interface Testimony {
   };
 }
 
+
+const testimonials = [
+  {
+    quote:
+      "SF Care staff are reliable, professional and maintain a consistently high standard. Communication is excellent and every request is handled swiftly.",
+    author: "James H.",
+  },
+  {
+    quote:
+      "Classrooms and facilities are left spotless every day. The team are professional, punctual and incredibly thorough, complete peace of mind.",
+    author: "Edunmont Co",
+  },
+  {
+    quote:
+      "Nothing but fabulous efficient, reliable and friendly. They quickly understood our needs and delivered exactly what we required.",
+    author: "Alana Joe",
+  },
+];
 const TESTIMONIALS: Testimony[] = [
   {
     service: "Healthcare Staffing",
@@ -60,7 +79,7 @@ function TestimonialCard({ stars = 5, service, description, author }: Testimony)
   return (
     <Card
       className={cn(
-        "relative bg-white rounded-xl border border-amber-100 shadow-sm",
+        "relative bg-main rounded-xl border border-amber-100 shadow-sm",
         "transition-all duration-300 ease-out",
         "hover:-translate-y-1 hover:shadow-lg hover:border-amber-300",
       )}
@@ -148,6 +167,8 @@ export default function Testimonials() {
           <TestimonialCard key={i} {...t} />
         ))}
       </div>
+
+ 
 
     </section>
   );
