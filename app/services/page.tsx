@@ -91,6 +91,7 @@ export default function Service() {
     },
     {
       icon: TowelRack,
+      
       image: "/concierge.jpeg",
       tag: "",
       title: "Concierge and Hospitality.",
