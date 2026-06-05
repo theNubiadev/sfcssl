@@ -15,84 +15,102 @@ export default function Service() {
   const services: Services[] = [
     {
       icon: Building,
-      tag: "Commercial CLeaning",
-      title: "Clean Workspaces. Productive Teams",
-      link: "Request a Quote",
-      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
+      tag: "",
+      title: "Commercial Cleaning",
+      link: "Book a Site Audit",
+      desc: "We deliver enterprise-level janitorial and maintenance solutions engineered for corporate offices, retail environments, and high-traffic public spaces. We provide a pristine, compliant environment that reflects the professional standards of your bran.",
       features: [
-        { list: "Daily, weekly, and contract commercial cleaning programmes" },
         {
-          list: "Office cleaning including desks, floors, kitchens, and washrooms",
+          list: "Tailored Sanitation Protocols: Customized cleaning regimes designed for your facility’s specific operational needs.",
         },
         {
-          list: "Schools, nurseries, and educational settings with child-safe products",
+          list: "Quality Assurance Systems: Regular inspections and supervision to ensure consistent, high-standard maintenance.",
         },
         {
-          list: "Healthcare and clinical environments requiring infection control standards",
+          list: "Disruption-Free Operations: Fully vetted, trained staff who work efficiently to ensure your daily activities continue without interruption.",
         },
-        { list: "Retail, hospitality, and customer-facing venue cleaning" },
-        { list: "End-of-tenancy and post-construction deep cleans" },
         {
-          list: "High-touch surface and communal area disinfection programmes",
+          list: "On-Call Deep Cleaning: Flexible scheduling for deep cleans, periodic maintenance, and facility refreshes.",
+        },
+        {
+          list: "Facility Management Support: Acting as an extension of your team to oversee hygiene and upkeep, allowing you to focus on your core business goals.",
         },
       ],
-      note: "Tailored to your business",
+      note: "",
     },
+
     {
       icon: PlayCircle,
-      tag: "Concierege and Hospitality",
-      title: "Personal Support, Delivered with Warmth.",
-      link: "Enquire about Concierge",
-      desc: "Life gets busy. For working families, elderly individuals, or anyone who simply needs an extra pair of trusted hands, our concierge and hospitality service provides practical, personal support right where it matters most in your home. We go beyond cleaning to offer a genuinely comprehensive lifestyle support service. Our team members are warm, discreet, and thoroughly vetted, so you can trust them in your home without hesitation.",
+      tag: "",
+      title: "Concierege and Hospitality.",
+      link: "Speak to an Advisor",
+      desc: " We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life—whether personal or professional—with discretion and precision.",
       features: [
         {
-          list: "Home cooking and meal preparation using your preferred recipes or dietary needs",
+          list: "Personalized Life Management: Daily assistance tailored to your requirements, ensuring your day-to-day routine runs seamlessly.",
         },
         {
-          list: "Grocery shopping, collection, and home delivery coordination",
+          list: "Essential Errands & Logistics: Efficient management of daily tasks, including prescription collection, grocery shopping, and appointment coordination.",
         },
         {
-          list: "Prescription and errand collections for elderly or mobility-limited clients",
+          list: "Home-Based Hospitality: Hands-on support including meal preparation, light cooking, and general household management, acting as an extension of your family.",
         },
         {
-          list: "Event hosting support including setup, service, and post-event cleaning",
-        },
-        {
-          list: "Companionship visits and welfare check-ins for elderly clients",
-        },
-        {
-          list: "School run, appointment accompaniment, and daily routine support",
-        },
-        {
-          list: "Bespoke packages tailored to your household's specific needs",
+          list: "Dedicated Companionship:** Providing a consistent, friendly, and professional presence for those who value social interaction, conversation, and support in staying active and engaged.",
         },
       ],
-      note: "Bespoke to you",
+      note: "",
     },
     {
       icon: Building,
-      tag: "Commercial CLeaning",
-      title: "Clean Workspaces. Productive Teams",
-      link: "Request a Quote",
-      desc: "A clean, well-maintained workplace speaks volumes about your business. Our commercial cleaning service is designed for organisations that need a reliable, professional, and discreet cleaning partner one who understands that your environment reflects your brand. We work across a wide range of sectors in Greater Manchester, including offices, schools, healthcare settings, retail, and hospitality venues. We operate around your business hours, ensuring minimal disruption to your daily operations.",
+      tag: "",
+      title: "Healthcare Staffing",
+      link: "Speak to An Advisor",
+      desc: "We are a trusted partner to the healthcare sector, providing high-caliber, fully compliant, and professional staffing solutions. We ensure staffing continuity for care homes and facilities, meeting both regulatory requirements and your highest standards of patient care..",
       features: [
-        { list: "Daily, weekly, and contract commercial cleaning programmes" },
         {
-          list: "Office cleaning including desks, floors, kitchens, and washrooms",
+          list: "Stringent Vetting Processes: Comprehensive recruitment including enhanced DBS verification, clinical reference checks, and right-to-work documentation.",
         },
         {
-          list: "Schools, nurseries, and educational settings with child-safe products",
+          list: "Performance Monitoring: Continuous evaluation of staff performance to ensure reliability, skill, and professionalism in every placement.",
         },
         {
-          list: "Healthcare and clinical environments requiring infection control standards",
+          list: "Seamless Integration: Staff who are selected not only for their qualifications but for their character, compassion, and ability to blend into your existing team culture.",
         },
-        { list: "Retail, hospitality, and customer-facing venue cleaning" },
-        { list: "End-of-tenancy and post-construction deep cleans" },
         {
-          list: "High-touch surface and communal area disinfection programmes",
+          list: "Staffing Continuity: Rapid, responsive solutions to bridge workforce gaps, ensuring your facility never compromises on service levels.",
+        },
+        {
+          list: "Regulatory Compliance Support: Ensuring all staffing deployments strictly meet national healthcare standards and internal facility policies.",
         },
       ],
-      note: "Tailored to your business",
+      note: "",
+    },
+
+    {
+      icon: PlayCircle,
+      tag: "",
+      title: "Domestic Cleaning.",
+      link: "Get a Free Quote",
+      desc: "We provide a meticulous, reliable, and trustworthy approach to home maintenance. We offer a high-standard service that gives you peace of mind and allows you to reclaim your time, ensuring your home is managed with professional consistency.",
+      features: [
+        {
+          list: "Customizable Cleaning Plans: Bespoke schedules tailored to your lifestyle, ranging from daily recurring maintenance to intensive one-off deep cleans.",
+        },
+        {
+          list: "Professional-Grade Standards: Use of high-performance, eco-conscious equipment and products for a safe, spotless, and sustainable finish.",
+        },
+        {
+          list: "Fully Vetted & Insured Team: All cleaning personnel are permanent, insured, and DBS-verified, guaranteeing both safety and reliability.",
+        },
+        {
+          list: "Detailed Maintenance: Thorough attention to detail, covering everything from standard room cleaning to specialized surface care and organizing.",
+        },
+        {
+          list: "Quality Consistency: A consistent team dedicated to learning your specific preferences and standards, ensuring the same quality every visit.",
+        },
+      ],
+      note: "",
     },
   ];
   return (
@@ -110,7 +128,7 @@ export default function Service() {
               Professional Service
             </h2>
             <p className="text-[0.9rem] text-main leading-[1.9] font-mont border-l-4 border-[#c8973a] pl-6">
-              Every service we offer is built on the same foundation , skilled,
+              Every service we offer is built on the same foundation, skilled,
               vetted professionals who care deeply about the work they do and
               the people they serve. Whether we are staffing a ward, cleaning an
               office, or preparing a meal in your home, the standard never
@@ -120,7 +138,7 @@ export default function Service() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {services.slice(0, 2).map((services) => {
+          {services.map((services) => {
             const Icon = services.icon;
             return (
               <div
@@ -131,9 +149,9 @@ export default function Service() {
                   <div className="w-14 h-14 bg-[#0d1f3c] rounded-xl flex items-center justify-center text-2xl mb-4">
                     <Icon className="text-sub" />
                   </div>
-                  <div className="inline-block font-mont bg-[#c8973a]/10 text-[#c8973a] text-[0.65rem] font-semibold tracking-[2px] uppercase px-3 py-1 rounded-full mb-2">
+                  {/* <div className="inline-block font-mont bg-[#c8973a]/10 text-[#c8973a] text-[0.65rem] font-semibold tracking-[2px] uppercase px-3 py-1 rounded-full mb-2">
                     {services.tag}
-                  </div>
+                  </div> */}
                   <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
                     {services.title}
                   </h3>
@@ -155,6 +173,11 @@ export default function Service() {
                 </div>
 
                 <div className="px-8 py-5 flex items-center justify-between  bg-[#fdf8f0] border-t border-[#f0e8d8] font-mont">
+                   <span className="text-[0.72rem] text-light">
+                    {services.note}
+                  </span>
+                 
+                 
                   <Link
                     href="/services"
                     className="text-[0.78rem] flex justify-center items-center font-semibold text-[#c8973a] tracking-[0.5px] hover:underline"
@@ -163,9 +186,7 @@ export default function Service() {
                     <ArrowRight className="w-2.5 h-2.5 m-2 " />
                   </Link>
 
-                  <span className="text-[0.72rem] text-light">
-                    {services.note}
-                  </span>
+                
                 </div>
               </div>
             );
