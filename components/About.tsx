@@ -70,7 +70,7 @@ export default function About() {
           }}
         />
 
-        <div className="relative grid md:grid-cols-2 gap-24 items-center    ">
+        <div className="relative grid md:grid-cols-2 gap-24 items-center">
           {/* <div className="reveal">
             <div className="bg-linear-to-br from-[#152a4e] to-[#0d1f3c] border border-[#c8973a]/20 rounded-xl p-12 relative overflow-hidden">
               <div className="absolute -top-2.5 left-5 text-[12rem] text-[#c8973a]/10 font-mont leading-none">
@@ -135,6 +135,10 @@ export default function About() {
           We combine dedicated care with rigorous compliance standards, DBS-vetted staffing, and tailored service level agreements (SLAs) designed to meet the operational demands of Manchester’s corporate and healthcare sectors. We don't just provide a service; we provide a foundation of trust for your home or business.
             </p>
 
+            
+          </div>
+
+          <div>
             <div className="grid sm:grid-cols-2 gap-4 mt-8">
               {passion.map((pass, i) => {
                 const Icon = pass.icon;
