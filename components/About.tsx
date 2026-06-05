@@ -71,7 +71,7 @@ export default function About() {
         />
 
         <div className="relative grid md:grid-cols-2 gap-24 items-center    ">
-          <div className="reveal">
+          {/* <div className="reveal">
             <div className="bg-linear-to-br from-[#152a4e] to-[#0d1f3c] border border-[#c8973a]/20 rounded-xl p-12 relative overflow-hidden">
               <div className="absolute -top-2.5 left-5 text-[12rem] text-[#c8973a]/10 font-mont leading-none">
                 “
@@ -82,7 +82,7 @@ export default function About() {
                 {/* <Avatar>
                   <AvatarImage src="/public/cleaning.jpeg" alt="" />
                 </Avatar> */}
-              </div>
+              {/* </div>
 
               <p className=" font-mont text-[1.25rem] italic text-[#fdf8f0] leading-[1.7] mb-6">
                 "I started this company because I believe everyone deserves to
@@ -116,7 +116,7 @@ export default function About() {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */} 
 
           <div className="reveal reveal-delay-2">
             <div className="text-[0.68rem] font-mont font-semibold tracking-[4px] uppercase text-[#e2b660] flex items-center gap-3 mb-3">
@@ -129,22 +129,10 @@ export default function About() {
               Grounded in Community.
             </h2>
             <p className="text-[0.92rem] font-mont text-[#fdf8f0]/70 leading-[1.95] mb-6">
-              SF Care and Support Services Ltd was founded by Rebecca Durodola
-              out of a deep passion for people and community. Having seen
-              first-hand how much a clean, safe, and well-supported environment
-              can transform a person's quality of life, Rebecca set out to build
-              a company that would make that difference professionally,
-              reliably, and with genuine heart
+             SF Care and Support Services was founded on a simple belief: that quality care and professional services should always come with a personal touch. While our roots are in local community support, our operations are built for professional scale.
             </p>
             <p className="text-[0.92rem] font-mont text-[#fdf8f0]/70 leading-[1.95] mb-6">
-              Her vision was simple but powerful: to give working families the
-              gift of time by handling the tasks that consume their days; to
-              help businesses present themselves at their very best; and to
-              ensure that vulnerable individuals and elderly clients always have
-              a trusted, caring presence nearby. Every member of the SFCSSL team
-              is selected not just for their skills, but for their character,
-              because in this work, who you are matters just as much as what you
-              can do.
+          We combine dedicated care with rigorous compliance standards, DBS-vetted staffing, and tailored service level agreements (SLAs) designed to meet the operational demands of Manchester’s corporate and healthcare sectors. We don't just provide a service; we provide a foundation of trust for your home or business.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 mt-8">
