@@ -19,7 +19,7 @@ export default function Service() {
       tag: "",
       title: "Commercial Cleaning",
       link: "Book a Site Audit",
-      desc: "We deliver enterprise-level janitorial and maintenance solutions engineered for corporate offices, retail environments, and high-traffic public spaces. We provide a pristine, compliant environment that reflects the professional standards of your bran.",
+      desc: " We deliver enterprise-level janitorial and maintenance solutions engineered for corporate offices, retail environments, and high-traffic public spaces. We provide a pristine, compliant environment that reflects the professional standards of your brand.",
       features: [
         {
           list: "Tailored Sanitation Protocols: Customized cleaning regimes designed for your facility’s specific operational needs.",
@@ -174,9 +174,6 @@ export default function Service() {
                 </div>
 
                 <div className="px-8 py-5 flex items-center justify-between  bg-[#fdf8f0] border-t border-[#f0e8d8] font-mont">
-                 
-                 
-                 
                   <Link
                     href="/services"
                     className="text-[0.78rem] flex justify-center items-center font-semibold text-[#c8973a] tracking-[0.5px] hover:underline"
@@ -184,35 +181,12 @@ export default function Service() {
                     {services.link}
                     <ArrowRight className="w-2.5 h-2.5 m-2 " />
                   </Link>
-
-                
                 </div>
               </div>
             );
           })}
         </div>
       </section>
-
-      {/* <div className="justify-center align-center">
-        <div className="bg-main rounded-2xl w-72 p-8 flex flex-col justify-between gap-6 sm:col-span-2 lg:col-span-1">
-              <div>
-                <p className="font-mont text-[1.6rem] font-bold text-white leading-tight mb-3">
-                  Not sure which service you need?
-                </p>
-                <p className="font-mont text-white/60 text-[0.88rem] leading-[1.8]">
-                  Get in touch and we will advise on the best solution for your
-                  home or business.
-                </p>
-              </div>
-              <Button
-                asChild
-                className="bg-sub text-main font-mont font-semibold text-[0.85rem] hover:bg-white hover:text-main transition-all duration-300 w-full"
-                size="lg"
-              >
-                <Link href="/contact">Get a Free Quote</Link>
-              </Button>
-            </div>
-      </div> */}
     </>
   );
 }

@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import Link from "next/link";
@@ -42,6 +41,7 @@ interface ServiceItem {
 interface TrustBadge {
   label: string;
   icon: React.ElementType;
+  desc: string;
 }
 
 /* ─── Data ─ */
@@ -97,10 +97,26 @@ const services: ServiceItem[] = [
 ];
 
 const trustBadges: TrustBadge[] = [
-  { label: "DBS-Checked & Insured", icon: BadgeCheck },
-  { label: "Flexible Scheduling", icon: Clock },
-  { label: "Local Expert Team", icon: Users },
-  { label: "Eco-Friendly Options", icon: Leaf },
+  {
+    label: "DBS-Checked & Insured",
+    icon: BadgeCheck,
+    desc: "Total peace of mind through rigorous background checks and comprehensive liability coverage.",
+  },
+  {
+    label: "Reliable, Contracted Delivery",
+    icon: Clock,
+    desc: "Whether recurring or one-off, we provide structured, dependable service level agreements (SLAs) tailored to your operational schedule.",
+  },
+  {
+    label: "Local Expert Team",
+    icon: Users,
+    desc: "A dedicated, Manchester-based team known for consistency, professionalism, and high standards of service.",
+  },
+  {
+    label: "Sustainability-Led Standards",
+    icon: Leaf,
+    desc: "We utilize eco-friendly, high-performance cleaning solutions that protect your environment and meet professional safety standards.",
+  },
 ];
 
 const testimonials = [
@@ -214,12 +230,11 @@ export default function Home() {
               {/* <span className="font-mont text-white/30 text-[5rem] font-bold select-none">
                 SF
               </span> */}
-              <Image 
-              src={Cleaning}
-              alt="Cleaning Image"
-              className="w-full h-full object-cover object-center"
+              <Image
+                src={Cleaning}
+                alt="Cleaning Image"
+                className="w-full h-full object-cover object-center"
               />
-    
             </div>
             {/* gold accent block */}
             <div className="absolute bottom-0 left-0 w-2/3 h-1 bg-sub" />
@@ -262,19 +277,13 @@ export default function Home() {
       {/* 
           SERVICE CARDS GRID
        */}
-      <section className="bg-[#f7f5f1] px-6 lg:px-[7%] py-24">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-14">
-            <p className="text-sub text-[0.72rem] font-mont font-bold tracking-[3px] uppercase mb-3">
-              What We Offer
-            </p>
-            <h2 className="font-mont text-[clamp(2rem,3.5vw,3rem)] font-bold text-main">
-              Our Services
-            </h2>
-          </div>
+     
+          <Service />
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {services.map((s) => {
+          
+
+
+            {/* {services.map((s) => {
               const Icon = s.icon;
               return (
                 <div
@@ -298,10 +307,10 @@ export default function Home() {
                   </Link>
                 </div>
               );
-            })}
+            })} */}
 
             {/* CTA card */}
-            <div className="bg-main rounded-2xl p-8 flex flex-col justify-between gap-6 sm:col-span-2 lg:col-span-1">
+            {/* <div className="bg-main rounded-2xl p-8 flex flex-col justify-between gap-6 sm:col-span-2 lg:col-span-1">
               <div>
                 <p className="font-mont text-[1.6rem] font-bold text-white leading-tight mb-3">
                   Not sure which service you need?
@@ -318,13 +327,11 @@ export default function Home() {
               >
                 <Link href="/contact">Get a Free Quote</Link>
               </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+            </div> 
+        
 
       {/* */}
-      <Service />
+      {/* <Service /> */}
       {/* 
           TRUST BADGES — 4-column icon strip (Colliers "Why Trust Us")
        */}
@@ -339,7 +346,7 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {trustBadges.map((b) => {
               const Icon = b.icon;
               return (
@@ -353,6 +360,8 @@ export default function Home() {
                   <p className="font-mont font-semibold text-main text-[0.92rem]">
                     {b.label}
                   </p>
+
+                  <p className="font-mont text-main text-sm">{b.desc}</p>
                 </div>
               );
             })}
@@ -366,7 +375,7 @@ export default function Home() {
       {/* 
           TESTIMONIALS — 3-column cards (Colliers style)
        */}
-      <section className="bg-main px-6 lg:px-[7%] py-24">
+      {/* <section className="bg-main px-6 lg:px-[7%] py-24">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-sub text-[0.72rem] font-mont font-bold tracking-[3px] uppercase mb-3">
@@ -387,7 +396,7 @@ export default function Home() {
                 className="bg-white/5 border border-white/10 rounded-2xl p-8 flex flex-col gap-6"
               >
                 {/* stars */}
-                <div className="flex gap-1">
+      {/* <div className="flex gap-1">
                   {Array.from({ length: 5 }).map((_, s) => (
                     <Star key={s} className="w-4 h-4 fill-sub text-sub" />
                   ))}
@@ -402,7 +411,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Full Testimonials component */}
       <Testimonials />
