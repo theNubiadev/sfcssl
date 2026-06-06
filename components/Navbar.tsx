@@ -49,12 +49,12 @@ export default function Navbar() {
           href="/"
           className=" no-underline text-inherit flex flex-col leading-none"
         >
-          <span className="font-mont-[1.6rem] font-bold tracking-[1px] text-main">
-            <span className="text-sub">SF Care & Support</span>
+          <span className=" font-mont font-bold tracking-[1px] text-main">
+            <span className="text-sub">SF  CARE & SUPPORT</span>
           </span>
 
           <span className="mt-0.5 text-[0.58rem] font-medium font-mont tracking-[3px] uppercase text-[#8899b0]">
-           Services Ltd
+           SERVICES LTD
           </span>
         </Link>
       </div>

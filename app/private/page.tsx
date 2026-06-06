@@ -175,7 +175,7 @@ export default function Private() {
               <Image
                 src={Hero}
                 alt="SF Care team"
-                className="relative z-10 w-full max-w-[420px] lg:max-w-[500px] object-contain drop-shadow-2xl"
+                className="relative z-10 w-full max-w-105 lg:max-w-[500px] object-contain drop-shadow-2xl"
                 priority
               />
             </div>
@@ -184,6 +184,34 @@ export default function Private() {
       </section>
 
       <section className="px-[6%] py-28 bg-[#fdf8f0]">
+
+        <div className="justtify-center align-center mb-16">
+         <h2>
+            <span className="relative inline-block">
+                <span className="text-[#c8973a]">
+                Our Private Household Services
+                </span>
+                {/* underline accent */}
+                <svg
+                  className="absolute -bottom-2 left-0 w-full"
+                  height="4"
+                  viewBox="0 0 300 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  preserveAspectRatio="none"
+                >
+                  <path
+                    d="M0 2 Q75 0 150 2 Q225 4 300 2"
+                    stroke="#c8973a"
+                    strokeWidth="2"
+                    strokeOpacity="0.5"
+                    fill="none"
+                  />
+                </svg>
+              </span>
+
+              </h2>
+        </div>
         <div className="grid md:grid-cols-2 gap-6">
           {services.map((services) => {
             const Icon = services.icon;
