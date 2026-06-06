@@ -167,10 +167,10 @@ export default function Home() {
           {/* ── Left: copy ── */}
           <div className="flex-1 max-w-2xl">
             {/* pill badge */}
-            <div className="inline-flex items-center gap-2 bg-sub/10 border border-sub/20 text-sub text-[0.7rem] font-semibold tracking-[2.5px] uppercase px-4 py-1.5 rounded-full mb-8 font-mont">
+            {/* <div className="inline-flex items-center gap-2 bg-sub/10 border border-sub/20 text-sub text-[0.7rem] font-semibold tracking-[2.5px] uppercase px-4 py-1.5 rounded-full mb-8 font-mont">
               <span className="w-1.5 h-1.5 rounded-full bg-sub animate-pulse" />
               Proudly Serving Greater Manchester
-            </div>
+            </div> */}
 
             <h1 className="font-mont text-[clamp(3rem,5.5vw,5rem)] font-bold leading-[1.08] text-white mb-6 tracking-tight">
               Where <em className="text-sub not-italic">Care</em> Meets
@@ -186,13 +186,13 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-14">
-              <Button
+              {/* <Button
                 asChild
                 size="lg"
                 className="bg-sub text-main font-mont font-semibold text-[0.85rem] tracking-wide px-9 border-2 border-sub hover:bg-transparent hover:text-sub transition-all duration-300"
               >
                 <Link href="/services">Explore Our Services</Link>
-              </Button>
+              </Button> */}
               <Button
                 asChild
                 size="lg"
@@ -227,9 +227,6 @@ export default function Home() {
           {/* image placeholder — swap for a real photo */}
           <div className="relative w-full aspect-4/3 rounded-2xl overflow-hidden bg-main/5">
             <div className="absolute inset-0 bg-linear-to-br from-main/80 to-main/40 flex items-center justify-center">
-              {/* <span className="font-mont text-white/30 text-[5rem] font-bold select-none">
-                SF
-              </span> */}
               <Image
                 src={Cleaning}
                 alt="Cleaning Image"
@@ -277,13 +274,10 @@ export default function Home() {
       {/* 
           SERVICE CARDS GRID
        */}
-     
-          <Service />
 
-          
+      {/* <Service /> */}
 
-
-            {/* {services.map((s) => {
+      {/* {services.map((s) => {
               const Icon = s.icon;
               return (
                 <div
@@ -309,8 +303,8 @@ export default function Home() {
               );
             })} */}
 
-            {/* CTA card */}
-            {/* <div className="bg-main rounded-2xl p-8 flex flex-col justify-between gap-6 sm:col-span-2 lg:col-span-1">
+      {/* CTA card */}
+      {/* <div className="bg-main rounded-2xl p-8 flex flex-col justify-between gap-6 sm:col-span-2 lg:col-span-1">
               <div>
                 <p className="font-mont text-[1.6rem] font-bold text-white leading-tight mb-3">
                   Not sure which service you need?
@@ -328,13 +322,8 @@ export default function Home() {
                 <Link href="/contact">Get a Free Quote</Link>
               </Button>
             </div> 
-        
-
-      {/* */}
       {/* <Service /> */}
-      {/* 
-          TRUST BADGES — 4-column icon strip (Colliers "Why Trust Us")
-       */}
+
       <section className="bg-white px-6 lg:px-[7%] py-20 border-t border-main/5">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
