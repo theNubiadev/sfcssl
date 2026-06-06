@@ -4,11 +4,11 @@ export default function Footer() {
       <footer className="bg-main px-[6%] pt-16 pb-8 border-t-[3px] border-sub">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
-            <span className="font-mont text-[1.8rem] font-bold text-[#fffdf9] block mb-1">
-              <span className="text-sub">SF</span>
+            <span className="font-mont text-[1.5rem]  capitalize font-bold text-[#fffdf9] block mb-1">
+              <span className="text-sub capitalize">SF</span>   CARE & SUPPORT
             </span>
-            <span className="text-[0.68rem] tracking-[2.5px] uppercase text-[#8899b0] block mb-4">
-              Care and Support Services Ltd
+            <span className="text-[1rem] tracking-[2.5px] font-mont uppercase text-[#8899b0] block mb-4">
+             Services Ltd
             </span>
             <p className="text-[0.84rem] font-mont text-[#fdf8f0]/50 leading-[1.8] max-w-75">
               A Greater Manchester based professional services company
