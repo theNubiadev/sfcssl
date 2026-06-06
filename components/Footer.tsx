@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <span className="font-mont text-[1.5rem]  capitalize font-bold text-[#fffdf9] block mb-1">
-              <span className="text-sub capitalize">SF</span>   CARE & SUPPORT
+              <span className="text-sub capitalize">SF</span> CARE & SUPPORT
             </span>
             <span className="text-[1rem] tracking-[2.5px] font-mont uppercase text-[#8899b0] block mb-4">
              Services Ltd
