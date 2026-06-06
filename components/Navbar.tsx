@@ -50,11 +50,11 @@ export default function Navbar() {
           className=" no-underline text-inherit flex flex-col leading-none"
         >
           <span className="font-mont-[1.6rem] font-bold tracking-[1px] text-main">
-            <span className="text-sub">SF</span>
+            <span className="text-sub">SF Care & Support</span>
           </span>
 
           <span className="mt-0.5 text-[0.58rem] font-medium font-mont tracking-[3px] uppercase text-[#8899b0]">
-            Care & Support Services Ltd
+           Services Ltd
           </span>
         </Link>
       </div>
@@ -82,15 +82,15 @@ export default function Navbar() {
           onClick={removeNav}
         />
         <NavItem
-          href="/services"
-          label="Services"
-          active={pathname === "/services"}
+          href="/professional"
+          label="Professional Environment"
+          active={pathname === "/professional"}
           onClick={removeNav}
         />
         <NavItem
-          href="/about-us"
-          label="About Us"
-          active={pathname === "/about-us"}
+          href="/private"
+          label="Private Households"
+          active={pathname === "/private"}
           onClick={removeNav}
         />
         <NavItem
