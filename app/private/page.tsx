@@ -84,8 +84,8 @@ export default function Private() {
         />
 
         {/* radial glows */}
-        <div className="absolute w-[700px] h-[700px] rounded-full opacity-10 bg-[#c8973a] blur-[120px] top-1/2 -right-64 -translate-y-1/2 pointer-events-none" />
-        <div className="absolute w-[400px] h-[400px] rounded-full opacity-8 bg-[#c8973a] blur-[100px] -bottom-24 left-[8%] pointer-events-none" />
+        <div className="absolute w-175 h-175 rounded-full opacity-10 bg-[#c8973a] blur-[120px] top-1/2 -right-64 -translate-y-1/2 pointer-events-none" />
+        <div className="absolute w-100 h-100 rounded-full opacity-8 bg-[#c8973a] blur-[100px] -bottom-24 left-[8%] pointer-events-none" />
 
         <div className="relative z-10 w-full px-6 lg:px-[7%] pt-36 pb-24 flex flex-col lg:flex-row items-center gap-14">
           {/* ── Left: copy ── */}
@@ -125,7 +125,7 @@ export default function Private() {
               </span>
             </h1>
 
-            <p className="text-[1rem] font-mont text-white/65 leading-[1.9] max-w-[480px] mb-10">
+            <p className="text-[1rem] font-mont text-white/65 leading-[1.9] max-w-100 mb-10">
               SF Care and Support Services provide a meticulous, reliable, and trustworthy approach to home maintenance. We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life whether personal or professional with discretion and precision.
             </p>
 
@@ -175,7 +175,7 @@ export default function Private() {
               <Image
                 src={Hero}
                 alt="SF Care team"
-                className="relative z-10 w-full max-w-105 lg:max-w-[500px] object-contain drop-shadow-2xl"
+                className="relative z-10 w-full max-w-105 lg:max-w-125 object-contain drop-shadow-2xl"
                 priority
               />
             </div>
@@ -224,9 +224,7 @@ export default function Private() {
                   <div className="w-14 h-14 bg-[#0d1f3c] rounded-xl flex items-center justify-center text-2xl mb-4">
                     <Icon className="text-sub" />
                   </div>
-                  {/* <div className="inline-block font-mont bg-[#c8973a]/10 text-[#c8973a] text-[0.65rem] font-semibold tracking-[2px] uppercase px-3 py-1 rounded-full mb-2">
-                          {services.tag}
-                        </div> */}
+                
                   <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
                     {services.title}
                   </h3>
