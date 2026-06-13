@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import Service from "@/components/Service";
+import HeroCarousel from "@/components/Hero";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -146,18 +147,12 @@ export default function Home() {
       {/* 
           HERO — full-bleed dark panel, image right, text left
        */}
+
       <section
         id="home"
         className="relative min-h-screen bg-main flex items-center overflow-hidden"
       >
         {/* subtle cross-hatch texture */}
-        <div
-          className="absolute inset-0 opacity-100 pointer-events-none"
-          style={{
-            backgroundImage:
-              "url(\"data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c8973a' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\")",
-          }}
-        />
 
         {/* radial glows */}
         <div className="absolute w-17.5 h-17.5 rounded-full bg-[radial-linear(circle,rgba(200,151,58,0.09)_0%,transparent_65%)] top-1/2 -right-25 -translate-y-1/2 pointer-events-none" />
@@ -166,12 +161,6 @@ export default function Home() {
         <div className="relative z-10 w-full px-6 lg:px-[7%] pt-36 pb-24 flex flex-col lg:flex-row items-center gap-14">
           {/* ── Left: copy ── */}
           <div className="flex-1 max-w-2xl">
-            {/* pill badge */}
-            {/* <div className="inline-flex items-center gap-2 bg-sub/10 border border-sub/20 text-sub text-[0.7rem] font-semibold tracking-[2.5px] uppercase px-4 py-1.5 rounded-full mb-8 font-mont">
-              <span className="w-1.5 h-1.5 rounded-full bg-sub animate-pulse" />
-              Proudly Serving Greater Manchester
-            </div> */}
-
             <h1 className="font-mont text-[clamp(3rem,5.5vw,5rem)] font-bold leading-[1.08] text-white mb-6 tracking-tight">
               Where <em className="text-sub not-italic">Care</em> Meets
               <br />
@@ -205,14 +194,7 @@ export default function Home() {
           </div>
 
           {/* ── Right: hero image ── */}
-          <div className="flex-1 flex justify-center lg:justify-end w-full">
-            <Image
-              src={Hero}
-              alt="SF Care team"
-              className="w-full max-w-md lg:max-w-lg object-contain drop-shadow-2xl"
-              priority
-            />
-          </div>
+          <HeroCarousel />
         </div>
       </section>
 
