@@ -1,0 +1,163 @@
+### Project Brief: SF Care & Support Services Website Implementation
+
+**Objective:** Standardize and expand all four primary service descriptions to reflect a high-authority, professional agency identity. Each service must follow a consistent structure: **Opening Summary** + **Bulleted Scope of Service**.
+#### 1. Homepage Structural Update
+ * **Layout:** Organize all services into two distinct headers.
+   * **Header A: Professional Environments** (Commercial Cleaning, Healthcare Staffing)
+
+   * **Header B: Private Households** (Domestic Cleaning, Concierge & Hospitality)
+
+ * **Location:** Remove the "Greater Manchester" card from the grid. Replace this with a footer banner: *"Proudly Serving the Greater Manchester Region."*
+
+#### 2. Standardized Service Descriptions
+*Please update each service card to the content below:*
+**[Category: Professional Environments]**
+
+**Service: Commercial Cleaning**
+ * **Summary:** We deliver enterprise-level janitorial and maintenance solutions engineered for corporate offices, retail environments, and high-traffic public spaces. We provide a pristine, compliant environment that reflects the professional standards of your brand.
+
+ * **Scope of Service:**
+   * **Tailored Sanitation Protocols:** Customized cleaning regimes designed for your facility’s specific operational needs.
+
+   * **Quality Assurance Systems:** Regular inspections and supervision to ensure consistent, high-standard maintenance.
+
+   * **Disruption-Free Operations:** Fully vetted, trained staff who work efficiently to ensure your daily activities continue without interruption.
+
+   * **On-Call Deep Cleaning:** Flexible scheduling for deep cleans, periodic maintenance, and facility refreshes.
+
+   * **Facility Management Support:** Acting as an extension of your team to oversee hygiene and upkeep, allowing you to focus on your core business goals.
+
+ * **Button:** "Book a Site Audit"
+**Service: Healthcare Staffing**
+
+ * **Summary:** We are a trusted partner to the healthcare sector, providing high-caliber, fully compliant, and professional staffing solutions. We ensure staffing continuity for care homes and facilities, meeting both regulatory requirements and your highest standards of patient care.
+
+ * **Scope of Service:**
+   * **Stringent Vetting Processes:** Comprehensive recruitment including enhanced DBS verification, clinical reference checks, and right-to-work documentation.
+
+   * **Performance Monitoring:** Continuous evaluation of staff performance to ensure reliability, skill, and professionalism in every placement.
+   
+* **Seamless Integration:** Staff who are selected not only for their qualifications but for their character, compassion, and ability to blend into your existing team culture.
+   
+* **Staffing Continuity:** Rapid, responsive solutions to bridge workforce gaps, ensuring your facility never compromises on service levels.
+* ⁠
+   * **Regulatory Compliance Support:** Ensuring all staffing deployments strictly meet national healthcare standards and internal facility policies.
+
+ * **Button:** "Speak to an Advisor"
+**[Category: Private Households]**
+**Service: Domestic Cleaning**
+ * **Summary:** We provide a meticulous, reliable, and trustworthy approach to home maintenance. We offer a high-standard service that gives you peace of mind and allows you to reclaim your time, ensuring your home is managed with professional consistency.
+
+ * **Scope of Service:**
+   * **Customizable Cleaning Plans:** Bespoke schedules tailored to your lifestyle, ranging from daily recurring maintenance to intensive one-off deep cleans.
+
+   * **Professional-Grade Standards:** Use of high-performance, eco-conscious equipment and products for a safe, spotless, and sustainable finish.
+
+   * **Fully Vetted & Insured Team:** All cleaning personnel are permanent, insured, and DBS-verified, guaranteeing both safety and reliability.
+
+   * **Detailed Maintenance:** Thorough attention to detail, covering everything from standard room cleaning to specialized surface care and organizing.
+
+   * **Quality Consistency:** A consistent team dedicated to learning your specific preferences and standards, ensuring the same quality every visit.
+ * **Button:** "Get a Free Quote"
+**Service: Concierge & Hospitality**
+ 
+* **Summary:** We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life—whether personal or professional—with discretion and precision.
+
+ * **Scope of Service:**
+   * **Personalized Life Management:** Daily assistance tailored to your requirements, ensuring your day-to-day routine runs seamlessly.
+
+   * **Essential Errands & Logistics:** Efficient management of daily tasks, including prescription collection, grocery shopping, and appointment coordination.
+
+   * **Home-Based Hospitality:** Hands-on support including meal preparation, light cooking, and general household management, acting as an extension of your family.
+
+   * **Event-Day Operational Support:** Logistical help for your private gatherings, including vendor liaison, site setup, staffing coordination, and on-the-day management.
+
+   * **Dedicated Companionship:** Providing a consistent, friendly, and professional presence for those who value social interaction, conversation, and support in staying active and engaged.
+
+ * **Button:** "Speak to an Advisor"
+#### 3. Trust & "Why Clients Trust Us" Section
+
+ * **DBS-Checked & Insured:** Total peace of mind through rigorous background checks and comprehensive liability coverage.
+
+ * **Reliable, Contracted Delivery:** Whether recurring or one-off, we provide structured, dependable service level agreements (SLAs) tailored to your operational schedule.
+
+ * **Local Expert Team:** A dedicated, Manchester-based team known for consistency, professionalism, and high standards of service.
+
+ * **Sustainability-Led Standards:** We utilize eco-friendly, high-performance cleaning solutions that protect your environment and meet professional safety standards.
+
+#### 4. About Us / "Our Story" Section
+> "SF Care and Support Services was founded on a simple belief: that quality care and professional services should always come with a personal touch. While our roots are in local community support, our operations are built for professional scale. We combine dedicated care with rigorous compliance standards, DBS-vetted staffing, and tailored service level agreements (SLAs) designed to meet the operational demands of Manchester’s corporate and healthcare sectors. We don't just provide a service; we provide a foundation of trust for your home or business."
+> 
+#### 5. Footer Requirement
+ * Add this compliance statement to the footer on all pages: *"Fully Insured, DBS-Verified, and Committed to Professional Excellence."*
+
+
+FAQ Section Requirements
+ Layout: Use an accordion/collapsible design to keep the page clean.
+ Categorization: Separate questions into "Professional Services" and "Personal Support."
+
+ Content to Implement:
+ "How do you ensure staff vetting?" (Answer: Enhanced DBS checks, reference verification, and insurance.)
+
+ "Can you handle short-notice requests?" (Answer: Yes, we pride ourselves on agile, responsive service.)
+
+ "Do you offer contract-based service?" (Answer: Yes, we provide bespoke Service Level Agreements (SLAs) for all our corporate and household clients.)
+
+ "Are you insured?" (Answer: Yes, all operations are fully covered by comprehensive liability insurance.)
+
+4. Trust, About, and Footer
+ "Why Clients Trust Us": Include these four points prominently:
+1 DBS-Checked & Insured
+2 Reliable, Contracted Delivery (SLAs)
+3 Local Expert Team (Manchester-based)
+4 Sustainability-Led Standards
+
+ About Us: "SF Care and Support Services was founded on a simple belief: that quality care and professional services should always come with a personal touch. While our roots are in local community support, our operations are built for professional scale. We combine dedicated care with rigorous compliance standards, DBS-vetted staffing, and tailored service level agreements (SLAs) designed to meet the operational demands of Manchester’s corporate and healthcare sectors."
+
+ Footer: Include this on every page: "Fully Insured, DBS-Verified, and Committed to Professional Excellence."
+
+
+Getting Started" Section Refinement
+Objective: Upgrade the "Getting Started" copy to signal high-level professional service delivery. Please replace the existing text with the following:
+
+Updated Headline & Sub-headline
+ Headline: "Our Engagement Process"
+
+ Sub-headline: "We bridge the gap between your requirements and high-quality delivery through a structured, transparent, and professional onboarding experience."
+
+Refined 3-Step Content
+ Step 1: Strategic Consultation
+ Text: "We begin with a detailed discovery session to analyze your unique requirements—whether corporate, healthcare, or private. We listen closely to ensure our solution is perfectly aligned with your objectives."
+
+ Step 2: Bespoke Service Design
+ Text: "We curate a tailored service plan that defines the scope, compliance standards, and delivery expectations. This plan forms the foundation of our partnership, ensuring total clarity and professional consistency."
+
+ Step 3: Seamless Service Activation
+ Text: "Our vetted, expert team is deployed to your location, fully prepared to execute the service plan. We maintain ongoing communication and quality monitoring to ensure your operations—or home environment—run flawlessly."
+
+Developer Notes for UI:
+ Current Layout: The vertical block layout is fine, but please ensure there is sufficient padding between these blocks so they do not feel crowded.
+
+ Consistency: Ensure the iconography used here matches the style used for the main Service Cards.
+
+ Call-to-Action (CTA) Placement: Below the third block, ensure there is a single, clear button that says: "Book Your Discovery Consultation."
+ Grammar Correction: Please ensure the typo in the current "Free Consultation" section ("we discuss our reguirements") is corrected to "requirements."
+
+
+Harmonize the logo and ensure the brand name ("SF Care & Support Services Ltd") reads as a single, authoritative entity.
+
+1. Logo/Text Hierarchy Adjustment
+ The Issue: The current separation makes the brand feel fragmented.
+ Instruction: Please ensure the font size, weight, and tracking (letter spacing) of "SF" and "CARE & SUPPORT SERVICES LTD" are unified.
+
+ Suggested Fix:
+ Visual Weight: If "SF" is bold, the rest of the text should ideally be a slightly lighter weight (e.g., Medium or Regular) but larger in height so that the top of "SF" aligns perfectly with the top of the "CARE" text, and the baseline of "SF" aligns with the baseline of "CARE."
+
+ Tracking/Spacing: Reduce the gap between "SF" and "CARE." They should look like a single line of text rather than two separate elements.
+
+ Alignment: Ensure the entire string is vertically centered in the header container.
+
+1. Mobile Responsiveness
+ Instruction: On mobile, often there isn't enough horizontal space, causing the "SF" to wrap or get pushed away.
+
+ Fix: Please ensure the developer uses a flexbox or grid container for the brand name so that it scales down proportionally as a single unit on smaller screens, rather than breaking into two lines or separating the initials.
