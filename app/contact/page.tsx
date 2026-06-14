@@ -118,7 +118,7 @@ export default function Contact() {
             <p className="text-[0.92rem] font-mont text-[#4a5e78] leading-[1.9] font-light mb-10">
               Whether you are a business looking for a reliable cleaning
               partner, a care facility in need of qualified staff, or a family
-              wanting a little extra support at home — we are here, and we
+              wanting a little extra support at home, we are here, and we
               would love to hear from you. All enquiries receive a response
               within 24 hours.
             </p>

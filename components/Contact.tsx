@@ -45,6 +45,14 @@ const contactItems = [
   },
 ];
 
+
+
+
+
+
+
+
+
 const serviceItems = [
   { label: "Healthcare Staffing",      value: "healthcarestaff" },
   { label: "Domestic Cleaning",        value: "domestic" },
@@ -53,6 +61,9 @@ const serviceItems = [
   { label: "Multiple Services",        value: "multiple" },
   { label: "General Enquiry",          value: "general" },
 ];
+// 
+
+
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -100,7 +111,7 @@ export default function Contact() {
       <section className="px-[6%] py-28 bg-[#fdf8f0]">
         <div className="grid lg:grid-cols-2 gap-20">
 
-          {/* ── Left: info ── */}
+          {/*  Left: info  */}
           <div className="reveal">
             <div className="text-[0.68rem] font-mont font-semibold tracking-[4px] uppercase text-[#c8973a] flex items-center gap-3 mb-3">
               <span className="w-7 h-0.5 bg-[#c8973a]" />
@@ -116,7 +127,7 @@ export default function Contact() {
             <p className="text-[0.92rem] font-mont text-[#4a5e78] leading-[1.9] font-light mb-10">
               Whether you are a business looking for a reliable cleaning
               partner, a care facility in need of qualified staff, or a family
-              wanting a little extra support at home — we are here, and we
+              wanting a little extra support at home, we are here, and we
               would love to hear from you. All enquiries receive a response
               within 24 hours.
             </p>
@@ -146,7 +157,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* ── Right: form ── */}
+          {/*  Right: form  */}
           <div className="reveal">
             <div className="bg-[#fffdf9] rounded-xl p-10 border border-[#c8973a]/15 shadow-[0_8px_40px_rgba(13,31,60,0.07)]">
 

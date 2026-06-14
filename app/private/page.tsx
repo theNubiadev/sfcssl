@@ -100,7 +100,6 @@ export default function Private() {
 
             <h1 className="font-mont text-[clamp(2.6rem,5vw,4.5rem)] font-bold leading-[1.1] text-white mb-6 tracking-tight">
               Professional
-              {/* <br />        <br /> */}
               <span className="relative inline-block">
                 <span className="text-[#c8973a]">
                   Private Cleaning 
