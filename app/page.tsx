@@ -257,7 +257,7 @@ export default function Home() {
           SERVICE CARDS GRID
        */}
 
-      {/* <Service /> */}
+      <Service />
 
       {/* {services.map((s) => {
               const Icon = s.icon;
