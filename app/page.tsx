@@ -177,14 +177,14 @@ const servicesList = [
     title: "Domestic Cleaning",
     link: "Learn More",
     image: "",
-    address: "/private"
+    address: "/private",
   },
   {
     tag: "Professional cleans for offices, schools and retail spaces, delivered with care and attention to detail.",
     title: "Commercial Cleaning",
     link: "Learn More",
     image: "",
-    address: "/professional"
+    address: "/professional",
   },
 ];
 
@@ -193,17 +193,10 @@ export default function Home() {
   return (
     <>
       <Navbar />
-
-      {/* 
-          HERO — full-bleed dark panel, image right, text left
-       */}
-
       <section
         id="home"
         className="relative min-h-screen bg-main flex items-center overflow-hidden"
       >
-        {/* subtle cross-hatch texture */}
-
         {/* radial glows */}
         <div className="absolute w-17.5 h-17.5 rounded-full bg-[radial-linear(circle,rgba(200,151,58,0.09)_0%,transparent_65%)] top-1/2 -right-25 -translate-y-1/2 pointer-events-none" />
         <div className="absolute w-100 h-100 rounded-full bg-[radial-linear(circle,rgba(200,151,58,0.06)_0%,transparent_65%)] -bottom-24 left-[8%] pointer-events-none" />
@@ -225,13 +218,6 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap gap-4 mb-14">
-              {/* <Button
-                asChild
-                size="lg"
-                className="bg-sub text-main font-mont font-semibold text-[0.85rem] tracking-wide px-9 border-2 border-sub hover:bg-transparent hover:text-sub transition-all duration-300"
-              >
-                <Link href="/services">Explore Our Services</Link>
-              </Button> */}
               <Button
                 asChild
                 size="lg"
@@ -248,30 +234,30 @@ export default function Home() {
         </div>
       </section>
 
- <section className="bg-[#fdf8f0] px-6 lg:px-[7%] py-20">
-  <div className="grid md:grid-cols-2 gap-6">
-    {servicesList.map((service, index) => (
-      <div
-        key={index}
-        className="group bg-white rounded-2xl p-8 border border-main/5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4"
-      >
-        <h3 className="font-mont font-semibold text-main text-[1.2rem]">
-          {service.title}
-        </h3>
-        <p className="font-mont text-main/60 text-[0.88rem] leading-[1.8]">
-          {service.tag}
-        </p>
+      <section className="bg-[#fdf8f0] px-6 lg:px-[7%] py-20">
+        <div className="grid md:grid-cols-2 gap-6">
+          {servicesList.map((service, index) => (
+            <div
+              key={index}
+              className="group bg-white rounded-2xl p-8 border border-main/5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4"
+            >
+              <h3 className="font-mont font-semibold text-main text-[1.2rem]">
+                {service.title}
+              </h3>
+              <p className="font-mont text-main/60 text-[0.88rem] leading-[1.8]">
+                {service.tag}
+              </p>
 
-        <Link
-          href={service.address}
-          className="mt-auto inline-flex items-center gap-1 text-sub text-[0.8rem] font-mont font-semibold tracking-wide hover:gap-2 transition-all duration-200"
-        >
-          {service.link} <ArrowRight className="w-3.5 h-3.5" />
-        </Link>
-      </div>
-    ))}
-  </div>
-</section>
+              <Link
+                href={service.address}
+                className="mt-auto inline-flex items-center gap-1 text-sub text-[0.8rem] font-mont font-semibold tracking-wide hover:gap-2 transition-all duration-200"
+              >
+                {service.link} <ArrowRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          ))}
+        </div>
+      </section>
 
       {/* gold divider */}
       <div className="h-0.76 bg-[linear-linear(90deg,#081529,#c8973a,#e2b660,#c8973a,#081529)]" />
@@ -328,58 +314,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 
-          SERVICE CARDS GRID
-       */}
-
+      {/* SERVICE CARDS GRID */}
       <Service />
-
-      {/* {services.map((s) => {
-              const Icon = s.icon;
-              return (
-                <div
-                  key={s.label}
-                  className="group bg-white rounded-2xl p-8 border border-main/5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4"
-                >
-                  <div className="w-12 h-12 rounded-xl bg-sub/10 flex items-center justify-center group-hover:bg-sub transition-colors duration-300">
-                    <Icon className="w-5 h-5 text-sub group-hover:text-main transition-colors duration-300" />
-                  </div>
-                  <h3 className="font-mont font-semibold text-main text-[1rem]">
-                    {s.label}
-                  </h3>
-                  <p className="font-mont text-main/60 text-[0.88rem] leading-[1.8] flex-1">
-                    {s.desc}
-                  </p>
-                  <Link
-                    href="/services"
-                    className="inline-flex items-center gap-1 text-sub text-[0.8rem] font-mont font-semibold tracking-wide hover:gap-2 transition-all duration-200"
-                  >
-                    Learn More <ArrowRight className="w-3.5 h-3.5" />
-                  </Link>
-                </div>
-              );
-            })} */}
-
-      {/* CTA card */}
-      {/* <div className="bg-main rounded-2xl p-8 flex flex-col justify-between gap-6 sm:col-span-2 lg:col-span-1">
-              <div>
-                <p className="font-mont text-[1.6rem] font-bold text-white leading-tight mb-3">
-                  Not sure which service you need?
-                </p>
-                <p className="font-mont text-white/60 text-[0.88rem] leading-[1.8]">
-                  Get in touch and we will advise on the best solution for your
-                  home or business.
-                </p>
-              </div>
-              <Button
-                asChild
-                className="bg-sub text-main font-mont font-semibold text-[0.85rem] hover:bg-white hover:text-main transition-all duration-300 w-full"
-                size="lg"
-              >
-                <Link href="/contact">Get a Free Quote</Link>
-              </Button>
-            </div> 
-      {/* <Service /> */}
 
       <section className="bg-white px-6 lg:px-[7%] py-20 border-t border-main/5">
         <div className="max-w-6xl mx-auto">
@@ -418,53 +354,10 @@ export default function Home() {
       {/* About Component */}
       <About />
 
-      {/* 
-          TESTIMONIALS — 3-column cards (Colliers style)
-       */}
-      {/* <section className="bg-main px-6 lg:px-[7%] py-24">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-14">
-            <p className="text-sub text-[0.72rem] font-mont font-bold tracking-[3px] uppercase mb-3">
-              Client Stories
-            </p>
-            <h2 className="font-mont text-[clamp(2rem,3.5vw,3rem)] font-bold text-white">
-              Kind Words from Happy Clients
-            </h2>
-            <p className="font-mont text-white/50 mt-3 text-[0.9rem]">
-              Rated 5 stars for professionalism, friendliness and results.
-            </p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {testimonials.map((t, i) => (
-              <div
-                key={i}
-                className="bg-white/5 border border-white/10 rounded-2xl p-8 flex flex-col gap-6"
-              >
-                {/* stars */}
-      {/* <div className="flex gap-1">
-                  {Array.from({ length: 5 }).map((_, s) => (
-                    <Star key={s} className="w-4 h-4 fill-sub text-sub" />
-                  ))}
-                </div>
-                <p className="font-mont text-white/80 text-[0.9rem] leading-[1.9] flex-1 italic">
-                  "{t.quote}"
-                </p>
-                <p className="font-mont font-semibold text-sub text-[0.82rem] tracking-wide">
-                  {t.author}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
-
       {/* Full Testimonials component */}
       <Testimonials />
 
-      {/* 
-          CTA BAND — full-width (Colliers "Get a Free Quote Today")
-       */}
+      {/*  CTA BAND — full-width (Colliers "Get a Free Quote Today") */}
       <section className="bg-sub px-6 lg:px-[7%] py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-mont text-[clamp(2rem,4vw,3.2rem)] font-bold text-main mb-4">
