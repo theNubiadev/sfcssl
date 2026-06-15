@@ -174,16 +174,17 @@ const render = [
 const servicesList = [
   {
     tag: "Keep your home fresh, tidy and stress-free with our regular, one-off and specialist cleaning services.",
-    title: "Domestic Cleaning",
+    title: "Private Households",
     link: "Learn More",
     address: "/private",
   },
   {
     tag: "Professional cleans for offices, schools and retail spaces, delivered with care and attention to detail.",
-    title: "Commercial Cleaning",
+    title: "Professional Environment",
     link: "Learn More",
     address: "/professional",
   },
+  
 ];
 
 /* ─── Page ─ */
