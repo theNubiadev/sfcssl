@@ -119,7 +119,7 @@ export default function Footer() {
             <ul className="space-y-3 font-mont text-[0.83rem] text-[#fdf8f0]/50">
               <li>
                 <a href="tel:01619711824" className="hover:text-sub">
-                  0161 971 1824
+                  073 618 97965
                 </a>
               </li>
               <li>
@@ -132,7 +132,7 @@ export default function Footer() {
                   hr@sfcssl.co.uk
                 </a>
               </li>
-              <li>Manchester, M2 3WW</li>
+              <li>Bartle House, 9 Oxford Court, Manchester, M2 3WQ</li>
             </ul>
           </div>
         </div>

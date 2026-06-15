@@ -124,7 +124,7 @@ export default function Professional() {
             <h1 className="font-mont text-[clamp(2.6rem,5vw,4.5rem)] font-bold leading-[1.1] text-white mb-6 tracking-tight">
               Professional
               <span className="relative inline-block">
-                <span className="text-[#c8973a]">Commercial Cleaning</span>
+                <span className="text-[#c8973a]">Environment</span>
                 {/* underline accent */}
                 <svg
                   className="absolute -bottom-2 left-0 w-full"
@@ -283,7 +283,7 @@ export default function Professional() {
 
       <div className="px-6 lg:px-[7%] py-20">
         <h2 className=" text-center font-mont text-[clamp(2rem,4vw,3.2rem)] font-bold text-main mb-4">
-          Our Commercial Cleaning Services
+          Our Professional Services
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
           {render.map((render) => {
@@ -293,7 +293,7 @@ export default function Professional() {
                 key={render.text}
               >
                 <div className="p-8 pb-6 relative">
-                  <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
+                  <h3 className="font-mont text-[1.6rem] font-bold text-[#0d1f3c]">
                     {render.text}
                   </h3>
                 </div>
