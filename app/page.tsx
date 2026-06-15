@@ -171,6 +171,23 @@ const render = [
   },
 ];
 
+const servicesList = [
+  {
+    tag: "Keep your home fresh, tidy and stress-free with our regular, one-off and specialist cleaning services.",
+    title: "Domestic Cleaning",
+    link: "Learn More",
+    image: "",
+    address: "/private"
+  },
+  {
+    tag: "Professional cleans for offices, schools and retail spaces, delivered with care and attention to detail.",
+    title: "Commercial Cleaning",
+    link: "Learn More",
+    image: "",
+    address: "/professional"
+  },
+];
+
 /* ─── Page ─ */
 export default function Home() {
   return (
@@ -231,21 +248,30 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#fdf8f0] px-6 lg:px-[7%] py-20">
-        {render.map((r, index) => (
-          <div
-            key={index}
-            className="group bg-white rounded-2xl p-8 border border-main/5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4"
-          >
-            <h3 className="font-mont font-semibold text-main text-[1.2rem] mb-2">
-              {r.render}
-            </h3>
-            <p className="font-mont text-main/60 text-[0.88rem] leading-[1.8]">
-              {r.summary}
-            </p>
-          </div>
-        ))}
-      </section>
+ <section className="bg-[#fdf8f0] px-6 lg:px-[7%] py-20">
+  <div className="grid md:grid-cols-2 gap-6">
+    {servicesList.map((service, index) => (
+      <div
+        key={index}
+        className="group bg-white rounded-2xl p-8 border border-main/5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4"
+      >
+        <h3 className="font-mont font-semibold text-main text-[1.2rem]">
+          {service.title}
+        </h3>
+        <p className="font-mont text-main/60 text-[0.88rem] leading-[1.8]">
+          {service.tag}
+        </p>
+
+        <Link
+          href={service.address}
+          className="mt-auto inline-flex items-center gap-1 text-sub text-[0.8rem] font-mont font-semibold tracking-wide hover:gap-2 transition-all duration-200"
+        >
+          {service.link} <ArrowRight className="w-3.5 h-3.5" />
+        </Link>
+      </div>
+    ))}
+  </div>
+</section>
 
       {/* gold divider */}
       <div className="h-0.76 bg-[linear-linear(90deg,#081529,#c8973a,#e2b660,#c8973a,#081529)]" />
