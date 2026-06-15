@@ -91,12 +91,7 @@ export default function Private() {
     {
     text: "Dry Cleaning",
     summary: "Convenient pick-up and return service for your freshly dry cleaned garments, saving you time and effort."
-    },
-    // {
-    //   text: "Carpet Cleaning",
-    //   summary: "Professional steam and extraction cleaning to remove dirt, stains, and allergens - restoring carpets to their best."
-    // }
-   
+    },   
   ];
   return (
     <>
@@ -114,7 +109,6 @@ export default function Private() {
           }}
         />
 
-        {/* radial glows */}
         <div className="absolute w-175 h-175 rounded-full opacity-10 bg-[#c8973a] blur-[120px] top-1/2 -right-64 -translate-y-1/2 pointer-events-none" />
         <div className="absolute w-100 h-100 rounded-full opacity-8 bg-[#c8973a] blur-[100px] -bottom-24 left-[8%] pointer-events-none" />
 
@@ -130,9 +124,9 @@ export default function Private() {
             </div>
 
             <h1 className="font-mont text-[clamp(2.6rem,5vw,4.5rem)] font-bold leading-[1.1] text-white mb-6 tracking-tight">
-              Professional
+              {/* Professional */}
               <span className="relative inline-block">
-                <span className="text-[#c8973a]">Private Cleaning</span>
+                <span className="text-[#c8973a]">Private Households</span>
                 {/* underline accent */}
                 <svg
                   className="absolute -bottom-2 left-0 w-full"
