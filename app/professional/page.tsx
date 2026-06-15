@@ -69,6 +69,27 @@ export default function Professional() {
       note: "",
     },
   ];
+
+  const render = [
+    {
+      text: "Daily Office Cleaning",
+      summary:
+        "Keep your workplace spotless with regular cleaning of desks, surfaces, floors, and bins. A fresh, professional environment every day.",
+      image: "",
+    },
+    {
+      text: "Restroom Cleaning",
+      summary:
+        "Disinfected toilets, sinks, and high-touch areas with restocked supplies. Clean, hygienic facilities your staff and visitors can trust.",
+      image: "",
+    },
+    {
+      text: "Breakroom Cleaning",
+      summary:
+        "Shiny countertops, clean sinks, and hygienic appliances in the shared kitchens and other staff areas.",
+      image: "",
+    },
+  ];
   return (
     <>
       <Navbar />
@@ -86,8 +107,8 @@ export default function Professional() {
         />
 
         {/* radial glows */}
-        <div className="absolute w-[700px] h-[700px] rounded-full opacity-10 bg-[#c8973a] blur-[120px] top-1/2 -right-64 -translate-y-1/2 pointer-events-none" />
-        <div className="absolute w-[400px] h-[400px] rounded-full opacity-8 bg-[#c8973a] blur-[100px] -bottom-24 left-[8%] pointer-events-none" />
+        <div className="absolute w-175 h-175 rounded-full opacity-10 bg-[#c8973a] blur-[120px] top-1/2 -right-64 -translate-y-1/2 pointer-events-none" />
+        <div className="absolute w-400 h-100 rounded-full opacity-8 bg-[#c8973a] blur-[100px] -bottom-24 left-[8%] pointer-events-none" />
 
         <div className="relative z-10 w-full px-6 lg:px-[7%] pt-36 pb-24 flex flex-col lg:flex-row items-center gap-14">
           {/* ── Left: copy ── */}
@@ -124,7 +145,7 @@ export default function Professional() {
               </span>
             </h1>
 
-            <p className="text-[1rem] font-mont text-white/65 leading-[1.9] max-w-[480px] mb-10">
+            <p className="text-[1rem] font-mont text-white/65 leading-[1.9] max-w-120 mb-10">
               SF Care and Support Services offers reliable daily cleans,
               specialist deep cleans with tailored services for offices, schools
               and businesses.
@@ -176,7 +197,7 @@ export default function Professional() {
               <Image
                 src={Hero}
                 alt="SF Care team"
-                className="relative z-10 w-full max-w-[420px] lg:max-w-[500px] object-contain drop-shadow-2xl"
+                className="relative z-10 w-full max-w-105 lg:max-w-125 object-contain drop-shadow-2xl"
                 priority
               />
             </div>
@@ -185,6 +206,33 @@ export default function Professional() {
       </section>
 
       <section className="px-[6%] py-28 bg-[#fdf8f0]">
+
+           <div className="justtify-center align-center mb-16">
+          <h2>
+            <span className="relative inline-block">
+              <span className="text-[#c8973a] align-center text-[clamp(2rem,4vw,3.2rem)] font-bold  mb-4">
+                Our Professional Services
+              </span>
+              {/* underline accent */}
+              <svg
+                className="absolute -bottom-2 left-0 w-full"
+                height="4"
+                viewBox="0 0 300 4"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M0 2 Q75 0 150 2 Q225 4 300 2"
+                  stroke="#c8973a"
+                  strokeWidth="2"
+                  strokeOpacity="0.5"
+                  fill="none"
+                />
+              </svg>
+            </span>
+          </h2>
+        </div>
         <div className="grid md:grid-cols-2 gap-6">
           {services.map((services) => {
             const Icon = services.icon;
@@ -232,6 +280,34 @@ export default function Professional() {
           })}
         </div>
       </section>
+
+      <div className="px-6 lg:px-[7%] py-20">
+        <h2 className=" text-center font-mont text-[clamp(2rem,4vw,3.2rem)] font-bold text-main mb-4">
+          Our Commercial Cleaning Services
+        </h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          {render.map((render) => {
+            return (
+              <div
+                className="rounded-lg bg-[#fffdf9]  overflow-hidden border border-[#c8973a]/10 shadow-[0_2px_20px_rgba(13,31,60,0.06)] hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(13,31,60,0.12)] transition-all duration-300"
+                key={render.text}
+              >
+                <div className="p-8 pb-6 relative">
+                  <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
+                    {render.text}
+                  </h3>
+                </div>
+
+                <div className="px-8 pb-8">
+                  <p className="font-mont text-[0.88rem] text-[#4a5e78] leading-[1.85] border-t border-[#f0e8d8] pt-4 mb-6">
+                    {render.summary}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
       <Footer />
     </>
   );

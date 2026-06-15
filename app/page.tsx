@@ -176,14 +176,12 @@ const servicesList = [
     tag: "Keep your home fresh, tidy and stress-free with our regular, one-off and specialist cleaning services.",
     title: "Domestic Cleaning",
     link: "Learn More",
-    image: "",
     address: "/private",
   },
   {
     tag: "Professional cleans for offices, schools and retail spaces, delivered with care and attention to detail.",
     title: "Commercial Cleaning",
     link: "Learn More",
-    image: "",
     address: "/professional",
   },
 ];

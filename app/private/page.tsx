@@ -67,6 +67,37 @@ export default function Private() {
       note: "",
     },
   ];
+
+
+  const render = [
+    {
+      text: "Regular Home Cleans",
+      summary:
+        "Enjoy a consistently fresh home with weekly or fortnightly visits. We’ll keep every room spotless so you can focus on what matters.",
+      image: "",
+    },
+     {
+      text: "Laundry & Ironing",
+      summary:
+        "From everyday washing to neatly pressed clothes, our team can take the hassle out of household chores..",
+      image: "",
+    },
+    {
+      text: "Deep Cleans",
+      summary:
+        "A full top-to-bottom clean that tackles hidden dirt and hard-to-reach areas. Perfect for seasonal refreshes or moving house.",
+      image: "",
+    },
+    {
+    text: "Dry Cleaning",
+    summary: "Convenient pick-up and return service for your freshly dry cleaned garments, saving you time and effort."
+    },
+    {
+      text: "Carpet Cleaning",
+      summary: "Professional steam and extraction cleaning to remove dirt, stains, and allergens - restoring carpets to their best."
+    }
+   
+  ];
   return (
     <>
       <Navbar />
@@ -101,9 +132,7 @@ export default function Private() {
             <h1 className="font-mont text-[clamp(2.6rem,5vw,4.5rem)] font-bold leading-[1.1] text-white mb-6 tracking-tight">
               Professional
               <span className="relative inline-block">
-                <span className="text-[#c8973a]">
-                  Private Cleaning 
-                </span>
+                <span className="text-[#c8973a]">Private Cleaning</span>
                 {/* underline accent */}
                 <svg
                   className="absolute -bottom-2 left-0 w-full"
@@ -125,7 +154,11 @@ export default function Private() {
             </h1>
 
             <p className="text-[1rem] font-mont text-white/65 leading-[1.9] max-w-100 mb-10">
-              SF Care and Support Services provide a meticulous, reliable, and trustworthy approach to home maintenance. We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life whether personal or professional with discretion and precision.
+              SF Care and Support Services provide a meticulous, reliable, and
+              trustworthy approach to home maintenance. We act as your dedicated
+              personal partner, providing high-touch, bespoke support designed
+              to handle the complexities of daily life whether personal or
+              professional with discretion and precision.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-10">
@@ -183,33 +216,31 @@ export default function Private() {
       </section>
 
       <section className="px-[6%] py-28 bg-[#fdf8f0]">
-
         <div className="justtify-center align-center mb-16">
-         <h2>
+          <h2>
             <span className="relative inline-block">
-                <span className="text-[#c8973a]">
+              <span className="text-[#c8973a] align-center text-[clamp(2rem,4vw,3.2rem)] font-bold  mb-4">
                 Our Private Household Services
-                </span>
-                {/* underline accent */}
-                <svg
-                  className="absolute -bottom-2 left-0 w-full"
-                  height="4"
-                  viewBox="0 0 300 4"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="none"
-                >
-                  <path
-                    d="M0 2 Q75 0 150 2 Q225 4 300 2"
-                    stroke="#c8973a"
-                    strokeWidth="2"
-                    strokeOpacity="0.5"
-                    fill="none"
-                  />
-                </svg>
               </span>
-
-              </h2>
+              {/* underline accent */}
+              <svg
+                className="absolute -bottom-2 left-0 w-full"
+                height="4"
+                viewBox="0 0 300 4"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+              >
+                <path
+                  d="M0 2 Q75 0 150 2 Q225 4 300 2"
+                  stroke="#c8973a"
+                  strokeWidth="2"
+                  strokeOpacity="0.5"
+                  fill="none"
+                />
+              </svg>
+            </span>
+          </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-6">
           {services.map((services) => {
@@ -223,7 +254,7 @@ export default function Private() {
                   <div className="w-14 h-14 bg-[#0d1f3c] rounded-xl flex items-center justify-center text-2xl mb-4">
                     <Icon className="text-sub" />
                   </div>
-                
+
                   <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
                     {services.title}
                   </h3>
@@ -257,6 +288,35 @@ export default function Private() {
             );
           })}
         </div>
+
+
+              <div className="px-6 lg:px-[7%] py-20">
+        <h2 className=" text-center font-mont text-[clamp(2rem,4vw,3.2rem)] font-bold text-main mb-4">
+          Our Commercial Cleaning Services
+        </h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          {render.map((render) => {
+            return (
+              <div
+                className="rounded-lg bg-[#fffdf9]  overflow-hidden border border-[#c8973a]/10 shadow-[0_2px_20px_rgba(13,31,60,0.06)] hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(13,31,60,0.12)] transition-all duration-300"
+                key={render.text}
+              >
+                <div className="p-8 pb-6 relative">
+                  <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
+                    {render.text}
+                  </h3>
+                </div>
+
+                <div className="px-8 pb-8">
+                  <p className="font-mont text-[0.88rem] text-[#4a5e78] leading-[1.85] border-t border-[#f0e8d8] pt-4 mb-6">
+                    {render.summary}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
       </section>
       <Footer />
     </>
