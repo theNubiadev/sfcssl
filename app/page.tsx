@@ -138,6 +138,39 @@ const testimonials = [
   },
 ];
 
+const render = [
+  {
+    render: "Regular Home CLeans",
+    summary:
+      "Enjoy a consistently fresh home with weekly or fortnightly visits. We’ll keep every room spotless so you can focus on what matters.",
+  },
+  {
+    render: "Deep CLeans",
+    summary:
+      "Our deep cleaning services tackle the toughest messes, ensuring your space is spotless from floor to ceiling.",
+  },
+  {
+    render: "One-Off Cleans",
+    summary:
+      "Whether it’s a post-event tidy-up or a seasonal refresh, our one-off cleans are designed to meet your specific needs with professional care.",
+  },
+  {
+    render: "Commercial Cleaning",
+    summary:
+      "From offices to retail spaces, we provide comprehensive commercial cleaning solutions that maintain a pristine environment for your business and customers.",
+  },
+  {
+    render: "Concierge & Hospitality",
+    summary:
+      "Our bespoke concierge services offer a personal touch to your daily life, from errand running and meal prep to companionship and household management, all delivered with warmth and professionalism.",
+  },
+  {
+    render: "Laundry and Ironing",
+    summary:
+      "Our laundry and ironing services take the hassle out of keeping your clothes fresh and wrinkle-free, with careful handling and attention to detail.",
+  },
+];
+
 /* ─── Page ─ */
 export default function Home() {
   return (
@@ -196,6 +229,22 @@ export default function Home() {
           {/* ── Right: hero image ── */}
           <HeroCarousel />
         </div>
+      </section>
+
+      <section className="bg-[#fdf8f0] px-6 lg:px-[7%] py-20">
+        {render.map((r, index) => (
+          <div
+            key={index}
+            className="group bg-white rounded-2xl p-8 border border-main/5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col gap-4"
+          >
+            <h3 className="font-mont font-semibold text-main text-[1.2rem] mb-2">
+              {r.render}
+            </h3>
+            <p className="font-mont text-main/60 text-[0.88rem] leading-[1.8]">
+              {r.summary}
+            </p>
+          </div>
+        ))}
       </section>
 
       {/* gold divider */}
