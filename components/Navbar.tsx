@@ -44,7 +44,7 @@ export default function Navbar() {
         {/* ── Logo ── */}
         <Link href="/" className="no-underline flex flex-col leading-none font-mont">
           <span
-            className="font-extrabold tracking-[2px] text-[1.1rem] lg:text-[1.35rem]"
+            className="font-extrabold tracking-[2px] text-[1.1rem] lg:text-[1.35rem] font-quick"
             style={{
               background: "linear-gradient(135deg, #c8920a 0%, #f5d97a 40%, #e2a91a 60%, #b07c0a 100%)",
               WebkitBackgroundClip: "text",

@@ -92,10 +92,10 @@ export default function Private() {
     text: "Dry Cleaning",
     summary: "Convenient pick-up and return service for your freshly dry cleaned garments, saving you time and effort."
     },
-    {
-      text: "Carpet Cleaning",
-      summary: "Professional steam and extraction cleaning to remove dirt, stains, and allergens - restoring carpets to their best."
-    }
+    // {
+    //   text: "Carpet Cleaning",
+    //   summary: "Professional steam and extraction cleaning to remove dirt, stains, and allergens - restoring carpets to their best."
+    // }
    
   ];
   return (

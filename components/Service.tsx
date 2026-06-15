@@ -126,7 +126,7 @@ export default function Service() {
 
             <h2 className="font-mont text-[clamp(2.2rem,4vw,3.2rem)] font-bold  leading-normal text-main">
               Four Pillars of <br />
-              Professional Service
+            Our  Professional Service
             </h2>
             <p className="text-[0.9rem] text-main leading-[1.9] font-mont border-l-4 border-[#c8973a] pl-6">
               Every service we offer is built on the same foundation, skilled,
@@ -150,9 +150,7 @@ export default function Service() {
                   <div className="w-14 h-14 bg-[#0d1f3c] rounded-xl flex items-center justify-center text-2xl mb-4">
                     <Icon className="text-sub" />
                   </div>
-                  {/* <div className="inline-block font-mont bg-[#c8973a]/10 text-[#c8973a] text-[0.65rem] font-semibold tracking-[2px] uppercase px-3 py-1 rounded-full mb-2">
-                    {services.tag}
-                  </div> */}
+                  
                   <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
                     {services.title}
                   </h3>
