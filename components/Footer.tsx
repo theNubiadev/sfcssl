@@ -60,7 +60,6 @@ export default function Footer() {
     lifestyle support.
   </p>
 </div>
-
           <div>
             <div className="text-[0.68rem] font-mont font-bold tracking-[3px] uppercase text-[#c8973a] mb-5">
               Services

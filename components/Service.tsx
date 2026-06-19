@@ -171,7 +171,7 @@ export default function Service() {
                   </ul>
                 </div>
 
-                <div className="px-8 py-5 flex items-center justify-between  bg-[#fdf8f0] border-t border-[#f0e8d8] font-mont">
+                {/* <div className="px-8 py-5 flex items-center justify-between  bg-[#fdf8f0] border-t border-[#f0e8d8] font-mont">
                   <Link
                     href="/services"
                     className="text-[0.78rem] flex justify-center items-center font-semibold text-[#c8973a] tracking-[0.5px] hover:underline"
@@ -179,7 +179,7 @@ export default function Service() {
                     {services.link}
                     <ArrowRight className="w-2.5 h-2.5 m-2 " />
                   </Link>
-                </div>
+                </div> */}
               </div>
             );
           })}
