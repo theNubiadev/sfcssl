@@ -5,7 +5,10 @@ import { Building, PlayCircle, Check, ArrowRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Hero from "@/public/homes.jpeg";
+import OfficeCleaning from "@/public/office.jpeg";
+
 import Footer from "@/components/Footer";
+
 interface Services {
   icon: React.ElementType;
   tag: string;
@@ -74,23 +77,24 @@ export default function Private() {
       text: "Regular Home Cleans",
       summary:
         "Enjoy a consistently fresh home with weekly or fortnightly visits. We’ll keep every room spotless so you can focus on what matters.",
-      image: "",
+      image: "/homes.jpeg",
     },
      {
       text: "Laundry & Ironing",
       summary:
         "From everyday washing to neatly pressed clothes, our team can take the hassle out of household chores..",
-      image: "",
+      image: "/homecleaning.jpeg",
     },
     {
-      text: "Deep Cleans",
+      text: " Concierge & Hospitality",
       summary:
-        "A full top-to-bottom clean that tackles hidden dirt and hard-to-reach areas. Perfect for seasonal refreshes or moving house.",
-      image: "",
+        "We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life whether personal or professional with discretion and precision.",
+      image: "/concierge.jpeg",
     },
     {
-    text: "Dry Cleaning",
-    summary: "Convenient pick-up and return service for your freshly dry cleaned garments, saving you time and effort."
+    text: "Care Home",
+    summary: "Providing a consistent, friendly, and professional presence for those who value social interaction, conversation, and support in staying active and engaged.",
+    image: "/carehome.jpeg"
     },   
   ];
   return (
@@ -288,15 +292,24 @@ export default function Private() {
         <h2 className=" text-center font-mont text-[clamp(2rem,4vw,3.2rem)] font-bold text-main mb-4">
           Our Commercial Cleaning Services
         </h2>
-        <div className="grid md:grid-cols-2 gap-6">
+           <div className="grid md:grid-cols-2 gap-6">
           {render.map((render) => {
             return (
               <div
-                className="rounded-lg bg-[#fffdf9]  overflow-hidden border border-[#c8973a]/10 shadow-[0_2px_20px_rgba(13,31,60,0.06)] hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(13,31,60,0.12)] transition-all duration-300"
+                className="rounded-lg bg-[#fffdf9] overflow-hidden border border-[#c8973a]/10 shadow-[0_2px_20px_rgba(13,31,60,0.06)] hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(13,31,60,0.12)] transition-all duration-300"
                 key={render.text}
               >
+                {/* Image Section */}
+                <div className="w-full overflow-hidden bg-[#faf7f2]">
+                  <img
+                    src={render.image}
+                    alt={render.text}
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+
                 <div className="p-8 pb-6 relative">
-                  <h3 className="font-mont) text-[1.6rem] font-bold text-[#0d1f3c]">
+                  <h3 className="font-mont text-[1.6rem] font-bold text-[#0d1f3c]">
                     {render.text}
                   </h3>
                 </div>
