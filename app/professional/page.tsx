@@ -75,19 +75,19 @@ export default function Professional() {
       text: "Daily Office Cleaning",
       summary:
         "Keep your workplace spotless with regular cleaning of desks, surfaces, floors, and bins. A fresh, professional environment every day.",
-      image: "",
+      image: "/office.jpeg",
     },
     {
       text: "Restroom Cleaning",
       summary:
         "Disinfected toilets, sinks, and high-touch areas with restocked supplies. Clean, hygienic facilities your staff and visitors can trust.",
-      image: "",
+      image: "/domestic.jpeg",
     },
     {
       text: "Breakroom Cleaning",
       summary:
         "Shiny countertops, clean sinks, and hygienic appliances in the shared kitchens and other staff areas.",
-      image: "",
+      image: "/domestic.jpeg",
     },
   ];
   return (
@@ -124,7 +124,7 @@ export default function Professional() {
             <h1 className="font-mont text-[clamp(2.6rem,5vw,4.5rem)] font-bold leading-[1.1] text-white mb-6 tracking-tight">
               Professional
               <span className="relative inline-block">
-                <span className="text-[#c8973a]">Environment</span>
+                <span className="text-[#c8973a]">Cleaning</span>
                 {/* underline accent */}
                 <svg
                   className="absolute -bottom-2 left-0 w-full"
@@ -206,8 +206,7 @@ export default function Professional() {
       </section>
 
       <section className="px-[6%] py-28 bg-[#fdf8f0]">
-
-           <div className="justtify-center align-center mb-16">
+        <div className="justtify-center align-center mb-16">
           <h2>
             <span className="relative inline-block">
               <span className="text-[#c8973a] align-center text-[clamp(2rem,4vw,3.2rem)] font-bold  mb-4">
@@ -289,9 +288,18 @@ export default function Professional() {
           {render.map((render) => {
             return (
               <div
-                className="rounded-lg bg-[#fffdf9]  overflow-hidden border border-[#c8973a]/10 shadow-[0_2px_20px_rgba(13,31,60,0.06)] hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(13,31,60,0.12)] transition-all duration-300"
+                className="rounded-lg bg-[#fffdf9] overflow-hidden border border-[#c8973a]/10 shadow-[0_2px_20px_rgba(13,31,60,0.06)] hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(13,31,60,0.12)] transition-all duration-300"
                 key={render.text}
               >
+                {/* Image Section */}
+                <div className="w-full overflow-hidden bg-[#faf7f2]">
+                  <img
+                    src={render.image}
+                    alt={render.text}
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+
                 <div className="p-8 pb-6 relative">
                   <h3 className="font-mont text-[1.6rem] font-bold text-[#0d1f3c]">
                     {render.text}
