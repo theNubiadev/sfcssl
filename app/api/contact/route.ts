@@ -22,7 +22,6 @@ export async function POST(req: Request) {
         { status: 400 }
       );
     }
-
     await transporter.sendMail({
       from: `"SF Care Contact Form" <${process.env.SMTP_USER}>`,
       to: process.env.SMTP_TO,
