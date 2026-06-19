@@ -84,10 +84,10 @@ export default function Professional() {
       image: "/domestic.jpeg",
     },
     {
-      text: "Breakroom Cleaning",
+      text: " Healthcare Staffing",
       summary:
-        "Shiny countertops, clean sinks, and hygienic appliances in the shared kitchens and other staff areas.",
-      image: "/domestic.jpeg",
+        "We are a trusted partner to the healthcare sector, providing high-caliber, fully compliant, and professional staffing solutions.",
+      image: "/care.jpeg",
     },
   ];
   return (

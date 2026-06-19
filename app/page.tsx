@@ -180,7 +180,7 @@ const servicesList = [
   },
   {
     tag: "Professional cleans for offices, schools and retail spaces, delivered with care and attention to detail.",
-    title: "Professional Environment",
+    title: "Professional Cleaning",
     link: "Learn More",
     address: "/professional",
   },
