@@ -67,26 +67,27 @@ export default function Footer() {
             </div>
 
             <ul className="space-y-3 font-mont text-[0.83rem] text-[#fdf8f0]/50">
-              <li>
-                <a href="#services" className="hover:text-sub">
-                  Healthcare Staffing
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-sub">
+             <li>
+                <a href="/services" className="hover:text-sub">
                   Domestic Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-sub">
+                <a href="/services" className="hover:text-sub">
                   Commercial Cleaning
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-sub">
+                <a href="/services" className="hover:text-sub">
                   Concierge &amp; Hospitality
                 </a>
               </li>
+              <li>
+                <a href="/services" className="hover:text-sub">
+                  Healthcare Staffing
+                </a>
+              </li>
+             
             </ul>
           </div>
 
@@ -96,17 +97,17 @@ export default function Footer() {
             </div>
             <ul className="space-y-3 font-mont text-[0.83rem] text-[#fdf8f0]/50">
               <li>
-                <a href="#about" className="hover:text-sub">
+                <a href="/about-us" className="hover:text-sub">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="hover:text-sub">
+                <a href="/testimonials" className="hover:text-sub">
                   Testimonials
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-sub">
+                <a href="/contact" className="hover:text-sub">
                   Contact Us
                 </a>
               </li>
