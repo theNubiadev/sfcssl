@@ -100,10 +100,16 @@ export default function Navbar() {
             label="Professional Cleaning"
             active={pathname === "/professional"}
           />
-          <NavItem
+          {/* <NavItem
             href="/testimonials"
             label="Testimonials"
             active={pathname === "/testimonials"}
+          /> */}
+
+           <NavItem
+            href="/careers"
+            label="Careers"
+            active={pathname === "/careers"}
           />
           <li>
             <Link href="/contact">
@@ -202,9 +208,9 @@ export default function Navbar() {
               onClick={() => setOpen(false)}
             />
             <NavItem
-              href="/testimonials"
-              label="Testimonials"
-              active={pathname === "/testimonials"}
+              href="/careers"
+              label="Careers"
+              active={pathname === "/careers"}
               onClick={() => setOpen(false)}
             />
             <li className="px-5 py-5 flex justify-end">

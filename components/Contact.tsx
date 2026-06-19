@@ -45,14 +45,6 @@ const contactItems = [
   },
 ];
 
-
-
-
-
-
-
-
-
 const serviceItems = [
   { label: "Healthcare Staffing",      value: "healthcarestaff" },
   { label: "Domestic Cleaning",        value: "domestic" },
@@ -61,9 +53,6 @@ const serviceItems = [
   { label: "Multiple Services",        value: "multiple" },
   { label: "General Enquiry",          value: "general" },
 ];
-// 
-
-
 
 export default function Contact() {
   const [form, setForm] = useState({
