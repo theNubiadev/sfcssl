@@ -58,12 +58,12 @@ const VALUES: Value[] = [
   {
     icon: Star,
     title: "Consistent Excellence",
-    description: "We hold ourselves to a high standard on every job — no matter how big or small.",
+    description: "We hold ourselves to a high standard on every job no matter how big or small.",
   },
   {
     icon: Heart,
     title: "Genuine Care",
-    description: "Behind every service is a real human connection — we care about the people we work with and for.",
+    description: "Behind every service is a real human connection we care about the people we work with and for.",
   },
 ];
 
@@ -76,14 +76,14 @@ const TEAM: TeamMember[] = [
   },
   {
     emoji: "👩🏽",
-    name: "Healthcare Lead",
-    role: "Head of Staffing Operations",
+    name: "Saray Taylor",
+    role: "Healthcare Lead",
     bio: "Overseeing all healthcare placements, our staffing lead ensures every professional we place meets the highest compliance and character standards.",
   },
   {
     emoji: "👨🏿",
-    name: "Cleaning Supervisor",
-    role: "Head of Cleaning Services",
+    name: "Oluwatobi Abrahams",
+    role: "Cleaning Lead",
     bio: "With years of experience in domestic and commercial environments, our cleaning lead guarantees consistency and quality across every contract.",
   },
 ];
@@ -134,7 +134,7 @@ export default function About() {
               {/* Quote */}
               <p className="font-mont text-[1.3rem] italic text-[#fdf8f0] leading-[1.75] mb-6 relative">
                 "I started this company because I believe everyone deserves to
-                live and work in a clean, safe, and well-supported environment —
+                live and work in a clean, safe, and well-supported environment 
                 and that the people who make that possible should be treated
                 with the highest professional standards."
               </p>
@@ -188,7 +188,7 @@ export default function About() {
               out of a deep passion for people and community. Having seen
               first-hand how much a clean, safe, and well-supported environment
               can transform a person's quality of life, Rebecca set out to build
-              a company that would make that difference — professionally,
+              a company that would make that difference professionally,
               reliably, and with genuine heart.
             </p>
             <p className="text-[0.92rem] font-mont text-[#fdf8f0]/70 leading-[1.95]">
@@ -257,7 +257,7 @@ export default function About() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto">
           {[
             { icon: CheckCircle, label: "Fully Vetted", desc: "Every staff member passes Enhanced DBS, reference checks, and skills verification before starting." },
-            { icon: Clock,       label: "Fast Response", desc: "We respond to healthcare staffing requests within hours — 24/7, including weekends and bank holidays." },
+            { icon: Clock,       label: "Fast Response", desc: "We respond to healthcare staffing requests within hours 24/7, including weekends and bank holidays." },
             { icon: Users,       label: "Consistent Team", desc: "We assign named professionals to domestic and concierge clients for continuity and trust." },
             { icon: Phone,       label: "Always Reachable", desc: "Our team is always available. You will never be left chasing an answer when you need us most." },
           ].map(({ icon: Icon, label, desc }, i) => (
@@ -289,7 +289,7 @@ export default function About() {
             Meet Our Team
           </h2>
           <p className="text-[0.9rem] font-mont text-[#4a5e78] leading-relaxed max-w-xl mx-auto mt-3 font-light">
-            Every member of the SFCSSL team is chosen for their skills and their character — because in care, both matter equally.
+            Every member of the SFCSSL team is chosen for their skills and their character because in care, both matter equally.
           </p>
         </div>
 
@@ -317,7 +317,7 @@ export default function About() {
         </div>
       </section>
 
-        {/* ── GALLERY ──────────────────────────────────────────────────────── */}
+        {/* ── GALLERY  */}
       <section className="px-[6%] py-24 bg-[#f0e8d8]">
         <div className="text-center mb-14">
           <div className="flex items-center justify-center gap-3 mb-3">
@@ -331,7 +331,7 @@ export default function About() {
           </h2>
 
           <p className="text-[0.9rem] font-mont text-[#4a5e78] leading-relaxed max-w-xl mx-auto mt-3 font-light">
-            Every day our team shows up — in homes, workplaces, and care settings across Greater Manchester — ready to make a real difference.
+            Every day our team shows up in homes, workplaces, and care settings across Greater Manchester, ready to make a real difference.
           </p>
         </div>
 
@@ -396,8 +396,8 @@ export default function About() {
           {/* Bottom-right small */}
           <div className="relative rounded-2xl overflow-hidden group aspect-video md:aspect-auto">
             <img
-              src="/ca.jpeg"
-              alt="Our team in Greater Manchester"
+              src="/errands.jpeg"
+              alt="Errands"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-linear-to-t from-[#081529]/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
@@ -424,14 +424,14 @@ export default function About() {
             Ready to Work With Us?
           </h2>
           <p className="text-[0.95rem] font-mont text-[#fdf8f0]/65 leading-relaxed mb-8 font-light">
-            Whether you are a business, a care facility, or a family — we would love to hear from you. All enquiries are answered within 24 hours.
+            Whether you are a business, a care facility, or a family we would love to hear from you. All enquiries are answered within 24 hours.
           </p>
         <div className="flex justify-center gap-4 flex-wrap">
             <a
               href="tel:01619711824"
               className="inline-flex font-mont items-center gap-2 bg-sub text-[#081529] px-8 py-4 rounded-md font-semibold text-[0.85rem] hover:bg-[#e2b660] transition"
             >
-              <Phone />Call 0161 971 1824
+              <Phone />Call 07361897965
             </a>
 
             <a
