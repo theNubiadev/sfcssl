@@ -43,7 +43,7 @@ export default function Service() {
       tag: "",
       title: "Domestic Cleaning.",
       link: "Get a Free Quote",
-      desc: "We provide a meticulous, reliable, and trustworthy approach to home maintenance. We offer a high-standard service that gives you peace of mind and allows you to reclaim your time, ensuring your home is managed with professional consistency.",
+      desc: "Your home deserves more than a quick wipe down. Our trained domestic cleaning team works around your schedule, using safe and effective products to keep your living space consistently fresh, clean and welcoming; so you can focus on what matters. ",
       features: [
         {
           list: "Customizable Cleaning Plans: Bespoke schedules tailored to your lifestyle, ranging from daily recurring maintenance to intensive one-off deep cleans.",
@@ -69,7 +69,7 @@ export default function Service() {
       tag: "",
       title: "Commercial CLeaning",
       link: "Book a Site Audit",
-      desc: "We deliver enterprise-level janitorial and maintenance solutions engineered for corporate offices, retail environments, and high-traffic public spaces. We provide a pristine, compliant environment that reflects the professional standards of your brand.",
+      desc: "First impression matters. We keep your worksplace spotless, hygienic, and professionally presented, working discreetly around your business hours to your team and clients always walk into a clean, well maintained environment.",
       features: [
         {
           list: "Tailored Sanitation Protocols: Customized cleaning regimes designed for your facility’s specific operational needs.",
@@ -94,9 +94,9 @@ export default function Service() {
       
       image: "/concierge.jpeg",
       tag: "",
-      title: "Concierge and Hospitality.",
+      title: "Concierge & Hospitality.",
       link: "Speak to an Advisor",
-      desc: " We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life—whether personal or professional—with discretion and precision.",
+      desc: " Life gets full. Our concierege team steps in to handle the everyday tasks that take up your time; from home cooking and grocery shopping to errand running and event support. Warm, trustworthy and completely tailored to your household.",
       features: [
         {
           list: "Personalized Life Management: Daily assistance tailored to your requirements, ensuring your day-to-day routine runs seamlessly.",
@@ -119,7 +119,7 @@ export default function Service() {
       tag: "",
       title: "Healthcare Staffing",
       link: "Speak to An Advisor",
-      desc: "We are a trusted partner to the healthcare sector, providing high-caliber, fully compliant, and professional staffing solutions. We ensure staffing continuity for care homes and facilities, meeting both regulatory requirements and your highest standards of patient care..",
+      desc: "We connect care facilities, hospitals and suported living providers across Greater Manchester with skilled, fully vetted healthcare professionals. Every candidate we place is DBS checked, reference verifies and ready to deliver safe, compassionate care from day one. ",
       features: [
         {
           list: "Stringent Vetting Processes: Comprehensive recruitment including enhanced DBS verification, clinical reference checks, and right-to-work documentation.",
@@ -158,22 +158,6 @@ export default function Service() {
       q: "Are you insured?",
       a: "Yes, all operations are fully covered by comprehensive liability insurance.",
     },
-    // {
-    //   q: "Are all your staff DBS checked and insured?",
-    //   a: "Yes! every single member of our team goes through an Enhanced DBS check before starting any assignment. All staff are also fully insured, reference-verified, and trained to the standards required for their specific role.",
-    // },
-    // {
-    //   q: "How quickly can you provide healthcare staff in an emergency?",
-    //   a: "Our healthcare staffing team operates a 24/7 on-call line. In many cases we can place a qualified professional within hours of your call.",
-    // },
-    // {
-    //   q: "Can I have the same cleaner every visit?",
-    //   a: "Absolutely. Wherever possible, we assign you a named cleaner who learns exactly how you like things done  building a relationship built on familiarity and trust.",
-    // },
-    // {
-    //   q: "Do you offer commercial cleaning outside of office hours?",
-    //   a: "Yes. We work around your business schedule, early mornings, evenings, and weekends are all available.",
-    // },
     {
       q: "What areas of Greater Manchester do you cover?",
       a: "We cover the full Greater Manchester area including Manchester City Centre, Salford, Trafford, Stockport, Tameside, Bolton, Wigan, Oldham, Rochdale, and surrounding areas.",
