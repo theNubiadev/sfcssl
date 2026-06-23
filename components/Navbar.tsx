@@ -97,7 +97,7 @@ export default function Navbar() {
           />
           <NavItem
             href="/professional"
-            label="Professional Cleaning"
+            label="Professional Environment"
             active={pathname === "/professional"}
           />
           {/* <NavItem
@@ -203,7 +203,7 @@ export default function Navbar() {
             />
             <NavItem
               href="/professional"
-              label="Professional Cleaning"
+              label="Professional Environment"
               active={pathname === "/professional"}
               onClick={() => setOpen(false)}
             />
