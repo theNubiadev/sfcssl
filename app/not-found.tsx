@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 export default function NotFound() {
   return (
     <>
+    <Navbar />
     <main className="min-h-screen bg-[#0d1f3c] flex items-center justify-center px-6 relative overflow-hidden">
       {/* Background glow blobs */}
       <div className="absolute -top-32 -left-32 w-125 h-125 rounded-full bg-[radial-gradient(circle,rgba(200,151,58,0.10)_0%,transparent_70%)] pointer-events-none" />
