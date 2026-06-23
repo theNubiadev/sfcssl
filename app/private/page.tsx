@@ -26,7 +26,7 @@ export default function Private() {
       tag: "",
       title: "Concierege and Hospitality.",
       link: "Speak to an Advisor",
-      desc: " We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life—whether personal or professional with discretion and precision.",
+      desc: " We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life whether personal or professional with discretion and precision.",
       features: [
         {
           list: "Personalized Life Management: Daily assistance tailored to your requirements, ensuring your day-to-day routine runs seamlessly.",
@@ -35,10 +35,10 @@ export default function Private() {
           list: "Essential Errands & Logistics: Efficient management of daily tasks, including prescription collection, grocery shopping, and appointment coordination.",
         },
         {
-          list: "Home-Based Hospitality: Hands-on support including meal preparation, light cooking, and general household management, acting as an extension of your family.",
+          list: "Home Based Hospitality: Hands-on support including meal preparation, light cooking, and general household management, acting as an extension of your family.",
         },
         {
-          list: "Dedicated Companionship:** Providing a consistent, friendly, and professional presence for those who value social interaction, conversation, and support in staying active and engaged.",
+          list: "Dedicated Companionship: Providing a consistent, friendly, and professional presence for those who value social interaction, conversation, and support in staying active and engaged.",
         },
       ],
       note: "",
@@ -74,7 +74,7 @@ export default function Private() {
 
   const render = [
     {
-      text: "Regular Home Cleans",
+      text: "Regular Home Cleaning",
       summary:
         "Enjoy a consistently fresh home with weekly or fortnightly visits. We’ll keep every room spotless so you can focus on what matters.",
       image: "/homes.jpeg",
@@ -92,7 +92,7 @@ export default function Private() {
       image: "/concierge.jpeg",
     },
     {
-    text: "Care Home",
+    text: "Care Home & Companionship",
     summary: "Providing a consistent, friendly, and professional presence for those who value social interaction, conversation, and support in staying active and engaged.",
     image: "/carehome.jpeg"
     },   
@@ -218,7 +218,7 @@ export default function Private() {
           <h2>
             <span className="relative inline-block">
               <span className="text-[#c8973a] align-center text-[clamp(2rem,4vw,3.2rem)] font-bold  mb-4">
-                Our Private Household Services
+                Our Domestic Cleaning Services
               </span>
               {/* underline accent */}
               <svg
@@ -300,13 +300,13 @@ export default function Private() {
                 key={render.text}
               >
                 {/* Image Section */}
-                <div className="w-full overflow-hidden bg-[#faf7f2]">
+                {/* <div className="w-full overflow-hidden bg-[#faf7f2]">
                   <img
                     src={render.image}
                     alt={render.text}
                     className="w-full h-auto object-cover"
                   />
-                </div>
+                </div> */}
 
                 <div className="p-8 pb-6 relative">
                   <h3 className="font-mont text-[1.6rem] font-bold text-[#0d1f3c]">
