@@ -45,7 +45,7 @@ export default function Service() {
       tag: "",
       title: "Concierege and Hospitality.",
       link: "Speak to an Advisor",
-      desc: " We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life—whether personal or professional—with discretion and precision.",
+      desc: " We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life whether personal or professional with discretion and precision.",
       features: [
         {
           list: "Personalized Life Management: Daily assistance tailored to your requirements, ensuring your day-to-day routine runs seamlessly.",
@@ -54,10 +54,10 @@ export default function Service() {
           list: "Essential Errands & Logistics: Efficient management of daily tasks, including prescription collection, grocery shopping, and appointment coordination.",
         },
         {
-          list: "Home-Based Hospitality: Hands-on support including meal preparation, light cooking, and general household management, acting as an extension of your family.",
+          list: "Home Based Hospitality: Hands-on support including meal preparation, light cooking, and general household management, acting as an extension of your family.",
         },
         {
-          list: "Dedicated Companionship:** Providing a consistent, friendly, and professional presence for those who value social interaction, conversation, and support in staying active and engaged.",
+          list: "Dedicated Companionship: Providing a consistent, friendly, and professional presence for those who value social interaction, conversation, and support in staying active and engaged.",
         },
       ],
       note: "",
