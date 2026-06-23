@@ -204,9 +204,10 @@ export default function Home() {
           {/* ── Left: copy ── */}
           <div className="flex-1 max-w-2xl">
             <h1 className="font-mont text-[clamp(3rem,5.5vw,5rem)] font-bold leading-[1.08] text-white mb-6 tracking-tight">
-              Where <em className="text-sub not-italic">Care</em> Meets
+              Trusted Across <em className="text-sub not-italic">Homes</em> 
               <br />
-              Professional Excellence
+              Workspaces and Communities.
+
             </h1>
 
             <p className="text-[1.05rem] font-mont text-white/70 leading-[1.9] max-w-xl mb-10">
