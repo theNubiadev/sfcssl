@@ -22,8 +22,8 @@ const contactItems = [
   {
     icon: Phone,
     label: "Phone",
-    value: "0161 971 1824",
-    href: "tel:01619711824",
+    value: " 073 618 97965",
+    href: "tel:07361897965",
   },
   {
     icon: Mail,
