@@ -69,7 +69,6 @@ export default function Professional() {
       note: "",
     },
   ];
-
   const render = [
     {
       text: "Daily Office Cleaning",
@@ -90,7 +89,8 @@ export default function Professional() {
       image: "/care.jpeg",
     },
   ];
-  return (
+
+return (
     <>
       <Navbar />
       <section
@@ -124,7 +124,7 @@ export default function Professional() {
             <h1 className="font-mont text-[clamp(2.6rem,5vw,4.5rem)] font-bold leading-[1.1] text-white mb-6 tracking-tight">
               Professional
               <span className="relative inline-block">
-                <span className="text-[#c8973a]">Cleaning</span>
+                <span className="text-[#c8973a]">Environment</span>
                 {/* underline accent */}
                 <svg
                   className="absolute -bottom-2 left-0 w-full"
@@ -292,13 +292,13 @@ export default function Professional() {
                 key={render.text}
               >
                 {/* Image Section */}
-                <div className="w-full overflow-hidden bg-[#faf7f2]">
+                {/* <div className="w-full overflow-hidden bg-[#faf7f2]">
                   <img
                     src={render.image}
                     alt={render.text}
                     className="w-full h-auto object-cover"
                   />
-                </div>
+                </div> */}
 
                 <div className="p-8 pb-6 relative">
                   <h3 className="font-mont text-[1.6rem] font-bold text-[#0d1f3c]">
