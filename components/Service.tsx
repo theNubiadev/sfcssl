@@ -19,7 +19,7 @@ export default function Service() {
       tag: "",
       title: "Commercial Cleaning",
       link: "Book a Site Audit",
-      desc: " We deliver enterprise-level janitorial and maintenance solutions engineered for corporate offices, retail environments, and high-traffic public spaces. We provide a pristine, compliant environment that reflects the professional standards of your brand.",
+      desc: " First impression matters. We keep your worksplace spotless, hygienic, and professionally presented, working discreetly around your business hours to your team and clients always walk into a clean, well maintained environment.",
       features: [
         {
           list: "Tailored Sanitation Protocols: Customized cleaning regimes designed for your facility’s specific operational needs.",
@@ -45,7 +45,7 @@ export default function Service() {
       tag: "",
       title: "Concierege and Hospitality.",
       link: "Speak to an Advisor",
-      desc: " We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life whether personal or professional with discretion and precision.",
+      desc: "Life gets full. Our concierege team steps in to handle the everyday tasks that take up your time; from home cooking and grocery shopping to errand running and event support. Warm, trustworthy and completely tailored to your household",
       features: [
         {
           list: "Personalized Life Management: Daily assistance tailored to your requirements, ensuring your day-to-day routine runs seamlessly.",
@@ -67,7 +67,7 @@ export default function Service() {
       tag: "",
       title: "Healthcare Staffing",
       link: "Speak to An Advisor",
-      desc: "We are a trusted partner to the healthcare sector, providing high-caliber, fully compliant, and professional staffing solutions. We ensure staffing continuity for care homes and facilities, meeting both regulatory requirements and your highest standards of patient care..",
+      desc: "We connect care facilities, hospitals and suported living providers across Greater Manchester with skilled, fully vetted healthcare professionals. Every candidate we place is DBS checked, reference verifies and ready to deliver safe, compassionate care from day one.",
       features: [
         {
           list: "Stringent Vetting Processes: Comprehensive recruitment including enhanced DBS verification, clinical reference checks, and right-to-work documentation.",
@@ -93,7 +93,7 @@ export default function Service() {
       tag: "",
       title: "Domestic Cleaning.",
       link: "Get a Free Quote",
-      desc: "We provide a meticulous, reliable, and trustworthy approach to home maintenance. We offer a high-standard service that gives you peace of mind and allows you to reclaim your time, ensuring your home is managed with professional consistency.",
+      desc: "Your home deserves more than a quick wipe down. Our trained domestic cleaning team works around your schedule, using safe and effective products to keep your living space consistently fresh, clean and welcoming; so you can focus on what matters. ",
       features: [
         {
           list: "Customizable Cleaning Plans: Bespoke schedules tailored to your lifestyle, ranging from daily recurring maintenance to intensive one-off deep cleans.",
@@ -163,7 +163,7 @@ export default function Service() {
 
                   <ul className="flex flex-col gap-2 text-[0.83rem] text-[#1a2e4a]">
                     {services.features.map((feature, i) => (
-                      <li key={i} className="flex items-start gap-2 font-mont ">
+                      <li key={i} className="flex items-start gap-2 leading-[1.85] font-mont ">
                         <Check className="w-4 h-4 mt-1 text-sub" />
                         {feature.list}
                       </li>
