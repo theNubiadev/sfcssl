@@ -9,7 +9,7 @@ import {
   Users,
   CheckCircle,
   Phone,
-  Mail
+  Mail,
 } from "lucide-react";
 
 // ── Types ─────────
@@ -36,10 +36,10 @@ interface Milestone {
   event: string;
 }
 
-// ── Data 
+// ── Data
 const STATS: Stat[] = [
-  { title: "4+",   subtitle: "Professional Services" },
-  { title: "GM",   subtitle: "Greater Manchester" },
+  { title: "4+", subtitle: "Professional Services" },
+  { title: "GM", subtitle: "Greater Manchester" },
   { title: "100%", subtitle: "DBS Checked Staff" },
   { title: "24/7", subtitle: "Healthcare On-Call" },
 ];
@@ -48,22 +48,26 @@ const VALUES: Value[] = [
   {
     icon: HandHeart,
     title: "Community First",
-    description: "We are rooted in Greater Manchester and proud to serve the people who make this city thrive.",
+    description:
+      "We are rooted in Greater Manchester and proud to serve the people who make this city thrive.",
   },
   {
     icon: Shield,
     title: "Trust & Safety",
-    description: "Every team member is vetted, DBS checked, and insured before entering any home or workplace.",
+    description:
+      "Every team member is vetted, DBS checked, and insured before entering any home or workplace.",
   },
   {
     icon: Star,
     title: "Consistent Excellence",
-    description: "We hold ourselves to a high standard on every job no matter how big or small.",
+    description:
+      "We hold ourselves to a high standard on every job no matter how big or small.",
   },
   {
     icon: Heart,
     title: "Genuine Care",
-    description: "Behind every service is a real human connection we care about the people we work with and for.",
+    description:
+      "Behind every service is a real human connection we care about the people we work with and for.",
   },
 ];
 
@@ -76,7 +80,7 @@ const TEAM: TeamMember[] = [
   },
   {
     emoji: "👩🏽",
-    name: "Saray Taylor",
+    name: "Sarah Taylor",
     role: "Healthcare Lead",
     bio: "Overseeing all healthcare placements, our staffing lead ensures every professional we place meets the highest compliance and character standards.",
   },
@@ -89,14 +93,23 @@ const TEAM: TeamMember[] = [
 ];
 
 const MILESTONES: Milestone[] = [
-  { year: "2023", event: "SF Care and Support Services Ltd founded in Manchester" },
+  {
+    year: "2023",
+    event: "SF Care and Support Services Ltd founded in Manchester",
+  },
   { year: "2023", event: "First healthcare staffing placements completed" },
-  { year: "2024", event: "Domestic and commercial cleaning divisions launched" },
+  {
+    year: "2024",
+    event: "Domestic and commercial cleaning divisions launched",
+  },
   { year: "2024", event: "Concierge & hospitality service introduced" },
-  { year: "2025", event: "Expanded coverage across all Greater Manchester boroughs" },
+  {
+    year: "2025",
+    event: "Expanded coverage across all Greater Manchester boroughs",
+  },
 ];
 
-// ── Page 
+// ── Page
 export default function About() {
   return (
     <>
@@ -116,7 +129,6 @@ export default function About() {
         <div className="absolute -top-40 -right-40 w-150 h-150 rounded-full bg-sub/5 blur-3xl pointer-events-none" />
 
         <div className="relative grid md:grid-cols-2 gap-20 items-center">
-
           {/* LEFT — Founder card + stats */}
           <div className="space-y-6">
             {/* Founder quote card */}
@@ -134,7 +146,7 @@ export default function About() {
               {/* Quote */}
               <p className="font-mont text-[1.3rem] italic text-[#fdf8f0] leading-[1.75] mb-6 relative">
                 "I started this company because I believe everyone deserves to
-                live and work in a clean, safe, and well-supported environment 
+                live and work in a clean, safe, and well-supported environment
                 and that the people who make that possible should be treated
                 with the highest professional standards."
               </p>
@@ -179,26 +191,27 @@ export default function About() {
             </div>
 
             <h2 className="font-mont text-[clamp(2.2rem,4vw,3.2rem)] font-bold leading-[1.15] text-[#fffdf9]">
-              Built on Passion.<br />
+              Built on Passion.
+              <br />
               Grounded in Community.
             </h2>
 
             <p className="text-[0.92rem] font-mont text-[#fdf8f0]/70 leading-[1.95]">
               SF Care and Support Services Ltd was founded by Rebecca Durodola
-              out of a deep passion for people and community. Having seen
-              first-hand how much a clean, safe, and well-supported environment
-              can transform a person's quality of life, Rebecca set out to build
-              a company that would make that difference professionally,
-              reliably, and with genuine heart.
+              out of a genuine passion for people and community. Having
+              witnessed first-hand how much a clean, safe, and well-supported
+              environment can transform a person's quality of life, Rebecca set
+              out to build something meaningful; a company that working
+              families, busy businesses, and vulnerable individuals could rely
+              on.
             </p>
             <p className="text-[0.92rem] font-mont text-[#fdf8f0]/70 leading-[1.95]">
-              Her vision was simple but powerful: to give working families the
-              gift of time; to help businesses present themselves at their very
-              best; and to ensure that vulnerable individuals and elderly clients
-              always have a trusted, caring presence nearby. Every member of the
-              SFCSSL team is selected not just for their skills, but for their
-              character — because in this work, who you are matters just as much
-              as what you can do.
+              Her vision was never just providing a service. It was about making
+              life easier, safer and more comfortable for the people and
+              communities she serves. Every member of the SFCSSL team is chosen
+              not just for their professional skills, but for their character;
+              because in this work, how you show up for people matters just as
+              much as what you do.
             </p>
 
             {/* Values grid */}
@@ -250,16 +263,33 @@ export default function About() {
             Why Clients Choose Us
           </h2>
           <p className="text-[0.9rem] font-mont text-[#4a5e78] leading-relaxed max-w-xl mx-auto mt-3 font-light">
-            In a crowded market, we stand apart not just by what we do, but by how we do it.
+            In a crowded market, we stand apart not just by what we do, but by
+            how we do it.
           </p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto">
           {[
-            { icon: CheckCircle, label: "Fully Vetted", desc: "Every staff member passes Enhanced DBS, reference checks, and skills verification before starting." },
-            { icon: Clock,       label: "Fast Response", desc: "We respond to healthcare staffing requests within hours 24/7, including weekends and bank holidays." },
-            { icon: Users,       label: "Consistent Team", desc: "We assign named professionals to domestic and concierge clients for continuity and trust." },
-            { icon: Phone,       label: "Always Reachable", desc: "Our team is always available. You will never be left chasing an answer when you need us most." },
+            {
+              icon: CheckCircle,
+              label: "Fully Vetted",
+              desc: "Every staff member passes Enhanced DBS, reference checks, and skills verification before starting.",
+            },
+            {
+              icon: Clock,
+              label: "Fast Response",
+              desc: "We respond to healthcare staffing requests within hours 24/7, including weekends and bank holidays.",
+            },
+            {
+              icon: Users,
+              label: "Consistent Team",
+              desc: "We assign named professionals to domestic and concierge clients for continuity and trust.",
+            },
+            {
+              icon: Phone,
+              label: "Always Reachable",
+              desc: "Our team is always available. You will never be left chasing an answer when you need us most.",
+            },
           ].map(({ icon: Icon, label, desc }, i) => (
             <div
               key={i}
@@ -268,14 +298,17 @@ export default function About() {
               <div className="w-12 h-12 rounded-xl bg-[#0d1f3c] flex items-center justify-center mx-auto mb-4">
                 <Icon size={20} className="text-sub" />
               </div>
-              <h4 className="font-mont font-bold text-[1.1rem] text-[#0d1f3c] mb-2">{label}</h4>
-              <p className="text-[0.8rem] font-mont text-[#4a5e78] leading-relaxed font-light">{desc}</p>
+              <h4 className="font-mont font-bold text-[1.1rem] text-[#0d1f3c] mb-2">
+                {label}
+              </h4>
+              <p className="text-[0.8rem] font-mont text-[#4a5e78] leading-relaxed font-light">
+                {desc}
+              </p>
             </div>
           ))}
         </div>
       </section>
 
-    
       {/* ── TEAM  */}
       <section className="px-[6%] py-24 bg-[#fdf8f0]">
         <div className="text-center mb-14">
@@ -289,7 +322,8 @@ export default function About() {
             Meet Our Team
           </h2>
           <p className="text-[0.9rem] font-mont text-[#4a5e78] leading-relaxed max-w-xl mx-auto mt-3 font-light">
-            Every member of the SFCSSL team is chosen for their skills and their character because in care, both matter equally.
+            Every member of the SFCSSL team is chosen for their skills and their
+            character because in care, both matter equally.
           </p>
         </div>
 
@@ -317,7 +351,7 @@ export default function About() {
         </div>
       </section>
 
-        {/* ── GALLERY  */}
+      {/* ── GALLERY  */}
       <section className="px-[6%] py-24 bg-[#f0e8d8]">
         <div className="text-center mb-14">
           <div className="flex items-center justify-center gap-3 mb-3">
@@ -331,7 +365,8 @@ export default function About() {
           </h2>
 
           <p className="text-[0.9rem] font-mont text-[#4a5e78] leading-relaxed max-w-xl mx-auto mt-3 font-light">
-            Every day our team shows up in homes, workplaces, and care settings across Greater Manchester, ready to make a real difference.
+            Every day our team shows up in homes, workplaces, and care settings
+            across Greater Manchester, ready to make a real difference.
           </p>
         </div>
 
@@ -346,8 +381,12 @@ export default function About() {
             />
             <div className="absolute inset-0 bg-linear-to-t from-[#081529]/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
             <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-400">
-              <span className="text-[0.68rem] font-mont font-semibold tracking-[3px] uppercase text-sub block mb-1">Healthcare Staffing</span>
-              <p className="text-[0.85rem] font-mont text-white font-light leading-snug">Compassionate care, delivered every day.</p>
+              <span className="text-[0.68rem] font-mont font-semibold tracking-[3px] uppercase text-sub block mb-1">
+                Healthcare Staffing
+              </span>
+              <p className="text-[0.85rem] font-mont text-white font-light leading-snug">
+                Compassionate care, delivered every day.
+              </p>
             </div>
           </div>
 
@@ -360,8 +399,12 @@ export default function About() {
             />
             <div className="absolute inset-0 bg-linear-to-t from-[#081529]/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
             <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-400">
-              <span className="text-[0.65rem] font-mont font-semibold tracking-[2px] uppercase text-sub block mb-0.5">Domestic Cleaning</span>
-              <p className="text-[0.8rem] font-mont text-white font-light">Homes that feel cared for.</p>
+              <span className="text-[0.65rem] font-mont font-semibold tracking-[2px] uppercase text-sub block mb-0.5">
+                Domestic Cleaning
+              </span>
+              <p className="text-[0.8rem] font-mont text-white font-light">
+                Homes that feel cared for.
+              </p>
             </div>
           </div>
 
@@ -374,8 +417,12 @@ export default function About() {
             />
             <div className="absolute inset-0 bg-linear-to-t from-[#081529]/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
             <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-400">
-              <span className="text-[0.65rem] font-mont font-semibold tracking-[2px] uppercase text-sub block mb-0.5">Commercial Cleaning</span>
-              <p className="text-[0.8rem] font-mont text-white font-light">Workplaces that impress.</p>
+              <span className="text-[0.65rem] font-mont font-semibold tracking-[2px] uppercase text-sub block mb-0.5">
+                Commercial Cleaning
+              </span>
+              <p className="text-[0.8rem] font-mont text-white font-light">
+                Workplaces that impress.
+              </p>
             </div>
           </div>
 
@@ -388,8 +435,12 @@ export default function About() {
             />
             <div className="absolute inset-0 bg-linear-to-t from-[#081529]/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
             <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-400">
-              <span className="text-[0.65rem] font-mont font-semibold tracking-[2px] uppercase text-sub block mb-0.5">Concierge &amp; Hospitality</span>
-              <p className="text-[0.8rem] font-mont text-white font-light">Support that feels personal.</p>
+              <span className="text-[0.65rem] font-mont font-semibold tracking-[2px] uppercase text-sub block mb-0.5">
+                Concierge &amp; Hospitality
+              </span>
+              <p className="text-[0.8rem] font-mont text-white font-light">
+                Support that feels personal.
+              </p>
             </div>
           </div>
 
@@ -402,17 +453,26 @@ export default function About() {
             />
             <div className="absolute inset-0 bg-linear-to-t from-[#081529]/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
             <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-400">
-              <span className="text-[0.65rem] font-mont font-semibold tracking-[2px] uppercase text-sub block mb-0.5">Our Team</span>
-              <p className="text-[0.8rem] font-mont text-white font-light">Proud to serve Greater Manchester.</p>
+              <span className="text-[0.65rem] font-mont font-semibold tracking-[2px] uppercase text-sub block mb-0.5">
+                Our Team
+              </span>
+              <p className="text-[0.8rem] font-mont text-white font-light">
+                Proud to serve Greater Manchester.
+              </p>
             </div>
           </div>
-
         </div>
       </section>
 
       {/* ── CTA ─ */}
       <section className="px-[6%] py-24 bg-main text-center relative overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse at 70% 50%, rgba(200,151,58,0.07) 0%, transparent 65%)" }} />
+        <div
+          className="absolute inset-0 pointer-events-none"
+          style={{
+            background:
+              "radial-gradient(ellipse at 70% 50%, rgba(200,151,58,0.07) 0%, transparent 65%)",
+          }}
+        />
         <div className="relative max-w-2xl mx-auto">
           <div className="flex items-center justify-center gap-3 mb-4">
             <span className="w-7 h-0.5 bg-[#e2b660]" />
@@ -424,14 +484,16 @@ export default function About() {
             Ready to Work With Us?
           </h2>
           <p className="text-[0.95rem] font-mont text-[#fdf8f0]/65 leading-relaxed mb-8 font-light">
-            Whether you are a business, a care facility, or a family we would love to hear from you. All enquiries are answered within 24 hours.
+            Whether you are a business, a care facility, or a family we would
+            love to hear from you. All enquiries are answered within 24 hours.
           </p>
-        <div className="flex justify-center gap-4 flex-wrap">
+          <div className="flex justify-center gap-4 flex-wrap">
             <a
               href="tel:01619711824"
               className="inline-flex font-mont items-center gap-2 bg-sub text-[#081529] px-8 py-4 rounded-md font-semibold text-[0.85rem] hover:bg-[#e2b660] transition"
             >
-              <Phone />Call 07361897965
+              <Phone />
+              Call 07361897965
             </a>
 
             <a
