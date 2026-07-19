@@ -186,7 +186,7 @@ export default function About() {
             <div className="flex items-center gap-3">
               <span className="w-8 h-0.5 bg-sub" />
               <span className="text-[0.68rem] font-mont font-semibold tracking-[4px] uppercase text-sub">
-                Our Story
+                Founder's Story
               </span>
             </div>
 
