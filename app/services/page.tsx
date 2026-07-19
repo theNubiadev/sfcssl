@@ -96,7 +96,7 @@ export default function Service() {
       tag: "",
       title: "Concierge & Hospitality.",
       link: "Speak to an Advisor",
-      desc: " Life gets full. Our concierege team steps in to handle the everyday tasks that take up your time; from home cooking and grocery shopping to errand running and event support. Warm, trustworthy and completely tailored to your household.",
+      desc: " Life gets full. Our concierge team steps in to handle the everyday tasks that take up your time; from home cooking and grocery shopping to errand running and event support. Warm, trustworthy and completely tailored to your household.",
       features: [
         {
           list: "Personalized Life Management: Daily assistance tailored to your requirements, ensuring your day-to-day routine runs seamlessly.",

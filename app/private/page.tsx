@@ -24,7 +24,7 @@ export default function Private() {
     {
       icon: PlayCircle,
       tag: "",
-      title: "Concierege and Hospitality.",
+      title: "Concierge and Hospitality.",
       link: "Speak to an Advisor",
       desc: " We act as your dedicated personal partner, providing high-touch, bespoke support designed to handle the complexities of daily life whether personal or professional with discretion and precision.",
       features: [

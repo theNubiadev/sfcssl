@@ -42,9 +42,8 @@ export default function StructuredData() {
       }
     ],
     "sameAs": [
-      "https://www.facebook.com/YOUR_PAGE",
-      "https://www.instagram.com/YOUR_PAGE",
-      "https://www.linkedin.com/company/YOUR_PAGE"
+      "https://www.instagram.com/sfcareandsupport?igsh=YWlrNTA1czY1b3Br&utm_source=qr",
+      "https://www.facebook.com/photo.php?fbid=941524095596182&set=a.100843316330935&type=3"
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

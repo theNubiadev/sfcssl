@@ -186,7 +186,7 @@ export default function CareersPage() {
           We&apos;re hiring · Manchester, UK
         </span>
 
-        <h1 className="font-lora text-[clamp(2.4rem,5vw,3.8rem)] font-semibold text-white leading-[1.18] max-w-2xl mb-5">
+        <h1 className="font-mont text-[clamp(2.4rem,5vw,3.8rem)] font-semibold text-white leading-[1.18] max-w-2xl mb-5">
           Build a career that{" "}
           <em className="text-[#f5d97a] not-italic">makes a difference</em>{" "}
           every day
@@ -230,7 +230,7 @@ export default function CareersPage() {
         <p className="font-mont text-[0.72rem] font-bold tracking-[0.14em] uppercase text-[#c8973a] mb-3">
           Why SFC SSL
         </p>
-        <h2 className="font-lora text-[clamp(1.8rem,3vw,2.6rem)] font-semibold text-[#0d1f3c] leading-tight mb-4">
+        <h2 className="font-mont text-[clamp(1.8rem,3vw,2.6rem)] font-semibold text-[#0d1f3c] leading-tight mb-4">
           A workplace that values you
         </h2>
         <p className="font-mont text-[0.92rem] text-[#4a5e78] leading-[1.8] max-w-xl mb-12">
@@ -265,7 +265,7 @@ export default function CareersPage() {
             <p className="font-mont text-[0.72rem] font-bold tracking-[0.14em] uppercase text-[#c8973a] mb-3">
               Open Positions
             </p>
-            <h2 className="font-lora text-[clamp(1.8rem,3vw,2.6rem)] font-semibold text-[#0d1f3c] leading-tight">
+            <h2 className="font-mont text-[clamp(1.8rem,3vw,2.6rem)] font-semibold text-[#0d1f3c] leading-tight">
               Find your role
             </h2>
           </div>
@@ -356,7 +356,7 @@ export default function CareersPage() {
         <p className="font-mont text-[0.72rem] font-bold tracking-[0.14em] uppercase text-[#c8973a] mb-3">
           How it works
         </p>
-        <h2 className="font-lora text-[clamp(1.8rem,3vw,2.6rem)] font-semibold text-white leading-1.25 mb-4">
+        <h2 className="font-mont text-[clamp(1.8rem,3vw,2.6rem)] font-semibold text-white leading-1.25 mb-4">
           Our hiring process
         </h2>
         <p className="font-mont text-[0.92rem] text-[#8a9bb0] leading-[1.8] max-w-xl mb-14">
@@ -392,7 +392,7 @@ export default function CareersPage() {
           <p className="font-mont text-[0.72rem] font-bold tracking-[0.14em] uppercase text-[#c8973a] mb-3">
             Apply Now
           </p>
-          <h2 className="font-lora text-[clamp(1.8rem,3vw,2.6rem)] font-semibold text-[#0d1f3c] leading-1.25 mb-4">
+          <h2 className="font-mont text-[clamp(1.8rem,3vw,2.6rem)] font-semibold text-[#0d1f3c] leading-1.25 mb-4">
             Take the first step
           </h2>
           <p className="font-mont text-[0.92rem] text-[#4a5e78] leading-[1.8] max-w-xl mx-auto">
