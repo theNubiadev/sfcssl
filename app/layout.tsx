@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Quicksand, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import StructuredData from "@/components/StructuredData";
 
 const quick = Quicksand({
   variable: "--font-quick",
@@ -49,7 +50,7 @@ const schema = {
   "@type": "LocalBusiness",
   name: "SF Care and Support Services Ltd",
   url: "https://sfcssl.co.uk",
-  telephone: "+44 161 971 1824",
+  telephone: "+44 073 618 97965",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Manchester",
@@ -90,6 +91,9 @@ export default function RootLayout({
         cormorant.variable,
       )}
     >
+       <head>
+        <StructuredData />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
 
       {/* <script
