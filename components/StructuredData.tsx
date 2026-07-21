@@ -3,11 +3,11 @@ export default function StructuredData() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://sfcssl.co.uk/#organization",
+    "@id": "https://sfcssl.co.uk/",
     "name": "SF Care and Support Services Ltd",
     "alternateName": "SFCSSL",
     "url": "https://sfcssl.co.uk",
-    "logo": "https://sfcssl.co.uk/domestic/jpeg",
+    "logo": "https://sfcssl.co.uk/domestic.jpeg",
     "image": "https://sfcssl.co.uk/homes.jpeg",
     "description": "Professional care, support, and cleaning services based in Greater Manchester, UK.",
     "telephone": "+44-073-618-97965",
